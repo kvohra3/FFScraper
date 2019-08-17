@@ -72,6 +72,7 @@ const getByeWeeks = async urlObj => {
 };
 
 const scrape = async ({ url, tableLocStr }) => {
+  console.log("url", url);
   try {
     const response = await fetch(url);
     const html = await response.text();
@@ -148,7 +149,7 @@ const setUpPlayer = (str, position, byeWeeks) => {
     },
     position,
     byeWeek,
-    rank: 1
+    rank: -1
   };
 };
 
