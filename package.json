@@ -8,6 +8,7 @@
     "server": "nodemon server/server.js",
     "client": "cd client && npm start",
     "start": "node server/server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
   "author": "",
