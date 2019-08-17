@@ -7,7 +7,7 @@ import PositionModal from "../PositionModal/PositionModal";
 const order = ["QB", "RB", "WR", "TE", "FLEX", "K", "D", "BENCH"];
 
 export default function TeamRoster(props) {
-  const { team } = props;
+  const { team, reactivatePlayer } = props;
   const [modalOpen, setModalOpen] = React.useState(false);
 
   const columns = [
@@ -40,7 +40,7 @@ export default function TeamRoster(props) {
           {
             icon: () => <Icon>delete</Icon>,
             tooltip: "Delete User",
-            onClick: event => alert("You want to delete a new row")
+            onClick: reactivatePlayer
           }
         ]}
         options={{

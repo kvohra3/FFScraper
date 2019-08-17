@@ -15,6 +15,7 @@ export default function FullRoster(props) {
 
   return (
     <MaterialTable
+      isLoading={activeRoster.length > 0 ? false : true}
       title="Active Roster"
       columns={columns}
       data={activeRoster}

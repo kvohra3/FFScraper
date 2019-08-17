@@ -21,7 +21,7 @@ export default class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      activeRoster: mock_players_data,
+      activeRoster: [],
       team: [
         { position: "QB", isEmpty: true },
 
@@ -50,6 +50,14 @@ export default class App extends React.Component {
       this.state.team.filter(({ isEmpty }) => isEmpty).length === 0;
   }
 
+  async componentDidMount() {
+    const rosterResponse = await fetch("/get/roster");
+    const roster = await rosterResponse.json();
+    this.setState({
+      activeRoster: roster
+    });
+  }
+
   flexEligibile = position =>
     position !== "QB" && position !== "K" && position !== "D";
 
@@ -60,6 +68,21 @@ export default class App extends React.Component {
       )
     });
     console.log(`${rowData.name.fullName} is no longer available`);
+  };
+
+  reactivatePlayer = (event, rowData) => {
+    const playerIndex = this.state.team.findIndex(pos => pos.id === rowData.id);
+    const newTeam = this.state.team;
+    newTeam[playerIndex] = {
+      position: rowData.position,
+      isEmpty: true
+    };
+
+    this.setState({
+      team: newTeam,
+      activeRoster: [rowData, ...this.state.activeRoster]
+    });
+    console.log(`${rowData.name.fullName} is available`);
   };
 
   addPlayerToTeamHelper = (teamIndex, rowData) => {
@@ -76,13 +99,10 @@ export default class App extends React.Component {
       team: newTeam,
       activeRoster: newRoster
     });
+    console.log(`adding ${rowData.name.fullName} to team`);
   };
+
   addPlayerToTeam = (event, rowData) => {
-    console.log(
-      this.state.isRosterFull,
-      this.flexEligibile(rowData.position),
-      rowData
-    );
     const emptyPrimaryPosition = this.state.team.findIndex(
       ({ position, isEmpty }) => position === rowData.position && isEmpty
     );
@@ -111,7 +131,10 @@ export default class App extends React.Component {
         <div className={gridStyles.root}>
           <Grid container spacing={2}>
             <Grid item xs={4}>
-              <TeamRoster team={this.state.team} />
+              <TeamRoster
+                team={this.state.team}
+                reactivatePlayer={this.reactivatePlayer}
+              />
             </Grid>
             <Grid item xs>
               <FullRoster
