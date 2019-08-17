@@ -7,13 +7,6 @@ const wrUrls = [
     tableLocStr: "table tbody tr"
   }
 ];
-const sportingNewsUrls = [
-  {
-    url:
-      "https://www.sportingnews.com/us/fantasy/news/fantasy-ppr-rankings-top-200-cheat-sheet-point-per-reception-sleepers-busts-projections-draft-strategy-tiers-draft-kit/11feetzrpunlr1j20ww0ck5052",
-    tableLocStr: "table tbody tr"
-  }
-];
 
 const byeWeekUrl = {
   url: "http://www.espn.com/nfl/schedulegrid",

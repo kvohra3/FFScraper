@@ -1,5 +1,6 @@
 const { getFantasyProsRankings } = require("../fantasyPros/index");
 const { getEspnData } = require("../espn/index");
+const { getSportingNewsRankings } = require("../sportingNews/index");
 const mock = require("../../client/src/MOCK_DATA/roster.json");
 
 const espnUrls = [
@@ -26,6 +27,14 @@ const espnUrls = [
   {
     url:
       "https://www.espn.com/fantasy/football/story/_/id/25848947/2019-updated-fantasy-football-ppr-rankings-field-yates",
+    tableLocStr: "table tbody tr"
+  }
+];
+
+const sportingNewsUrls = [
+  {
+    url:
+      "https://www.sportingnews.com/us/fantasy/news/fantasy-ppr-rankings-top-200-cheat-sheet-point-per-reception-sleepers-busts-projections-draft-strategy-tiers-draft-kit/11feetzrpunlr1j20ww0ck5052",
     tableLocStr: "table tbody tr"
   }
 ];
@@ -61,8 +70,13 @@ const getRankings = async currentRankings => {
   const fantasyProsRankings = await Promise.all(
     fantasyProsUrls.map(async urlObj => await getFantasyProsRankings(urlObj))
   );
+  const sportingNewsRankings = await Promise.all(
+    sportingNewsUrls.map(async urlObj => await getSportingNewsRankings(urlObj))
+  );
+
   hash = espnRankings.reduce(averageRankings, hash);
   hash = fantasyProsRankings.reduce(averageRankings, hash);
+  hase = sportingNewsRankings.reduce(averageRankings, hash);
   return hash;
 };
 
