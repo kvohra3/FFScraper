@@ -12,8 +12,9 @@ export default function TeamRoster(props) {
 
   const columns = [
     { title: "Name", field: "name.fullName" },
-    { title: "Position", field: "position" },
+    { title: "Team_Position", field: "team_position" },
     { title: "Bye Week", field: "byeWeek", type: "numeric" },
+    { title: "Position", field: "position", hidden: true },
     { title: "Rank", field: "rank", type: "numeric", hidden: true },
     { title: "ID", field: "id", hidden: true }
   ];

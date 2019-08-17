@@ -23,27 +23,27 @@ export default class App extends React.Component {
     this.state = {
       activeRoster: [],
       team: [
-        { position: "QB", isEmpty: true },
+        { team_position: "QB", isEmpty: true },
 
-        { position: "RB", isEmpty: true },
-        { position: "RB", isEmpty: true },
+        { team_position: "RB", isEmpty: true },
+        { team_position: "RB", isEmpty: true },
 
-        { position: "WR", isEmpty: true },
-        { position: "WR", isEmpty: true },
-        { position: "TE", isEmpty: true },
+        { team_position: "WR", isEmpty: true },
+        { team_position: "WR", isEmpty: true },
+        { team_position: "TE", isEmpty: true },
 
-        { position: "FLEX", isEmpty: true },
-        { position: "FLEX", isEmpty: true },
+        { team_position: "FLEX", isEmpty: true },
+        { team_position: "FLEX", isEmpty: true },
 
-        { position: "K", isEmpty: true },
-        { position: "D", isEmpty: true },
+        { team_position: "K", isEmpty: true },
+        { team_position: "D", isEmpty: true },
 
-        { position: "BENCH", isEmpty: true },
-        { position: "BENCH", isEmpty: true },
-        { position: "BENCH", isEmpty: true },
-        { position: "BENCH", isEmpty: true },
-        { position: "BENCH", isEmpty: true },
-        { position: "BENCH", isEmpty: true }
+        { team_position: "BENCH", isEmpty: true },
+        { team_position: "BENCH", isEmpty: true },
+        { team_position: "BENCH", isEmpty: true },
+        { team_position: "BENCH", isEmpty: true },
+        { team_position: "BENCH", isEmpty: true },
+        { team_position: "BENCH", isEmpty: true }
       ]
     };
     this.state.isRosterFull =
@@ -74,7 +74,7 @@ export default class App extends React.Component {
     const playerIndex = this.state.team.findIndex(pos => pos.id === rowData.id);
     const newTeam = this.state.team;
     newTeam[playerIndex] = {
-      position: rowData.position,
+      team_position: rowData.team_position,
       isEmpty: true
     };
 
@@ -89,7 +89,7 @@ export default class App extends React.Component {
     const newTeam = this.state.team;
     newTeam[teamIndex] = {
       ...rowData,
-      position: newTeam[teamIndex].position
+      team_position: newTeam[teamIndex].team_position
     };
 
     const newRoster = this.state.activeRoster.filter(
@@ -104,24 +104,33 @@ export default class App extends React.Component {
 
   addPlayerToTeam = (event, rowData) => {
     const emptyPrimaryPosition = this.state.team.findIndex(
-      ({ position, isEmpty }) => position === rowData.position && isEmpty
+      ({ team_position, isEmpty }) =>
+        team_position === rowData.position && isEmpty
     );
+    const flexPosition = this.state.team.findIndex(
+      ({ team_position, isEmpty }) => team_position === "FLEX" && isEmpty
+    );
+    const benchPosition = this.state.team.findIndex(
+      ({ team_position, isEmpty }) => team_position === "BENCH" && isEmpty
+    );
+
     if (emptyPrimaryPosition > -1) {
       this.addPlayerToTeamHelper(emptyPrimaryPosition, rowData);
-    } else if (this.flexEligibile(rowData.position)) {
-      const flexPosition = this.state.team.findIndex(
-        ({ position, isEmpty }) => position === "FLEX" && isEmpty
-      );
-      if (flexPosition > -1) {
-        this.addPlayerToTeamHelper(flexPosition, rowData);
-      }
-    } else if (!this.state.isRosterFull) {
-      const benchPosition = this.state.team.findIndex(
-        ({ position, isEmpty }) => position === "BENCH" && isEmpty
-      );
-      if (benchPosition > -1) {
-        this.addPlayerToTeamHelper(benchPosition, rowData);
-      }
+    }
+    if (
+      emptyPrimaryPosition < 0 &&
+      this.flexEligibile(rowData.position) &&
+      flexPosition > -1
+    ) {
+      this.addPlayerToTeamHelper(flexPosition, rowData);
+    }
+    if (
+      emptyPrimaryPosition < 0 &&
+      (flexPosition < 0 || !this.flexEligibile(rowData.position)) &&
+      !this.state.isRosterFull &&
+      benchPosition > -1
+    ) {
+      this.addPlayerToTeamHelper(benchPosition, rowData);
     }
   };
 
