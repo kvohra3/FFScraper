@@ -15,7 +15,7 @@ export default function FullRoster() {
     { title: "Position", field: "position" },
     { title: "Bye Week", field: "byeWeek", type: "numeric" },
     { title: "Rank", field: "rank", type: "numeric" },
-    { title: "ID", field: "id" }
+    { title: "ID", field: "id", hidden: true }
   ];
 
   return (

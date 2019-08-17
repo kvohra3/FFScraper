@@ -40,7 +40,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className={gridStyles.root}>
           <Grid container spacing={3}>
             <Grid item xs={4}>
