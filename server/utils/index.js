@@ -7,47 +7,11 @@ const wrUrls = [
     tableLocStr: "table tbody tr"
   }
 ];
-
-const espnUrls = [
-  {
-    url:
-      "https://www.espn.com/fantasy/football/story/_/id/25759239/fantasy-football-2019-updated-top-200-ppr-rankings-matthew-berry",
-    tableLocStr: "table tbody tr"
-  },
-  {
-    url:
-      "https://www.espn.com/fantasy/football/story/_/id/26415022/fantasy-football-updated-2019-ppr-rankings-mike-clay",
-    tableLocStr: "table tbody tr"
-  },
-  {
-    url:
-      "https://www.espn.com/fantasy/football/story/_/id/26701720/fantasy-football-updated-2019-ppr-rankings-tristan-h-cockcroft",
-    tableLocStr: "table tbody tr"
-  },
-  {
-    url:
-      "https://www.espn.com/fantasy/football/story/_/id/25676188/2019-updated-fantasy-football-ppr-rankings-eric-karabell",
-    tableLocStr: "table tbody tr"
-  },
-  {
-    url:
-      "https://www.espn.com/fantasy/football/story/_/id/25848947/2019-updated-fantasy-football-ppr-rankings-field-yates",
-    tableLocStr: "table tbody tr"
-  }
-];
-
 const sportingNewsUrls = [
   {
     url:
       "https://www.sportingnews.com/us/fantasy/news/fantasy-ppr-rankings-top-200-cheat-sheet-point-per-reception-sleepers-busts-projections-draft-strategy-tiers-draft-kit/11feetzrpunlr1j20ww0ck5052",
     tableLocStr: "table tbody tr"
-  }
-];
-
-const fantasyProsUrls = [
-  {
-    url: "https://www.fantasypros.com/nfl/rankings/consensus-cheatsheets.php",
-    tableLocStr: "table#rank-data.player-table tbody tr"
   }
 ];
 
@@ -72,7 +36,6 @@ const getByeWeeks = async urlObj => {
 };
 
 const scrape = async ({ url, tableLocStr }) => {
-  console.log("url", url);
   try {
     const response = await fetch(url);
     const html = await response.text();
@@ -89,8 +52,6 @@ const scrape = async ({ url, tableLocStr }) => {
           const text = $(this).text();
           row.push(text);
         });
-      // console.log(row);
-      // console.log();
       table.push(row);
     });
     return table;
@@ -172,10 +133,6 @@ const getRoster = async urlObj => {
     },
     []
   );
-
-  // console.log("rankingsHash", rankingsHash);
-  // fullRoster.forEach(player => (player.rank = rankingsHash[player.id]));
-  // console.log(fullRoster);
   return fullRoster;
 };
 

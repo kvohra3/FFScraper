@@ -37,17 +37,16 @@ const fantasyProsUrls = [
   }
 ];
 
-const averageRankings = (hash, rankings) => {
-  Object.keys(hash).forEach(player_id => {
-    // console.log(player_id, hash[player_id], rankings[player_id]);
-    if (hash[player_id]) {
-      if (hash[player_id] > 999 && rankings[player_id]) {
-        hash[player_id] = rankings[player_id].rank;
-      } else if (hash[player_id] && rankings[player_id]) {
-        hash[player_id] = (hash[player_id].rank + rankings[player_id].rank) / 2;
-      }
+const averageRankings = (hash, rankings = {}) => {
+  const player_ids = Object.keys(hash);
+  player_ids.forEach(id => {
+    if (hash[id] > 999 && rankings[id] && rankings[id].rank) {
+      hash[id] = rankings[id].rank;
+    } else if (rankings[id] && rankings[id].rank) {
+      hash[id] = (hash[id] + rankings[id].rank) / 2;
     }
   });
+
   return hash;
 };
 
@@ -56,11 +55,10 @@ const getRankings = async currentRankings => {
     acc[cv.id] = cv.rank;
     return acc;
   }, {});
-  hash = await espnUrls.reduce(async (currHash, urlObj) => {
-    const data = await getEspnData(urlObj);
-    currHash = await averageRankings(currHash, data);
-    return currHash;
-  }, hash);
+  const espnRankings = await Promise.all(
+    espnUrls.map(async urlObj => await getEspnData(urlObj))
+  );
+  hash = espnRankings.reduce(averageRankings, hash);
   return hash;
 };
 
