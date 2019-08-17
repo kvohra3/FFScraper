@@ -1,34 +1,13 @@
 import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import MaterialTable from "material-table";
 import Icon from "@material-ui/core/Icon";
 import Modal from "@material-ui/core/Modal";
+import PositionModal from "../PositionModal/PositionModal";
 
-const order = ["QB", "RB", "WR", "FLEX", "K", "D", "BENCH"];
+const order = ["QB", "RB", "WR", "TE", "FLEX", "K", "D", "BENCH"];
 
-const rand = () => {
-  return Math.round(Math.random() * 20) - 10;
-};
-
-const top = 50 + rand();
-const left = 50 + rand();
-const useStyles = makeStyles(theme => ({
-  paper: {
-    top: `${top}%`,
-    left: `${left}%`,
-    transform: `translate(-${top}%, -${left}%)`,
-    position: "absolute",
-    width: 400,
-    backgroundColor: theme.palette.background.paper,
-    border: "2px solid #000",
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 4)
-  }
-}));
-
-export default function FullRoster() {
-  const modalStyles = useStyles();
-
+export default function TeamRoster() {
+  const [modalOpen, setModalOpen] = React.useState(false);
   const [activeRoster, setActiveRoster] = useState({
     players: [
       { position: "QB" },
@@ -38,6 +17,7 @@ export default function FullRoster() {
 
       { position: "WR" },
       { position: "WR" },
+      { position: "TE" },
 
       { position: "FLEX" },
       { position: "FLEX" },
@@ -61,28 +41,12 @@ export default function FullRoster() {
     { title: "ID", field: "id", hidden: true }
   ];
 
-  const [open, setOpen] = React.useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
+  const handleClose = () => setModalOpen(false);
   return (
     <div>
       <div>
-        <Modal
-          aria-labelledby="simple-modal-title"
-          aria-describedby="simple-modal-description"
-          open={open}
-          onClose={handleClose}
-        >
-          <div className={modalStyles.paper}>
-            <p>testing123</p>
-          </div>
+        <Modal open={modalOpen} onClose={handleClose}>
+          <PositionModal />
         </Modal>
       </div>
       <MaterialTable
@@ -93,7 +57,7 @@ export default function FullRoster() {
           {
             icon: () => <Icon>add</Icon>,
             tooltip: "Add Player to team",
-            onClick: event => handleOpen(),
+            onClick: event => setModalOpen(true),
             isFreeAction: true
           },
           {

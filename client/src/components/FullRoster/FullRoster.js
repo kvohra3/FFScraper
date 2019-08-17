@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import MaterialTable from "material-table";
 import Icon from "@material-ui/core/Icon";
-import mock_players_data from "../../MOCK_DATA/roster.json";
 
-export default function FullRoster() {
-  const [activeRoster, setActiveRoster] = useState({
-    players: mock_players_data
-  });
+export default function FullRoster(props) {
+  const { activeRoster, deactivatePlayer } = props;
 
   const columns = [
     { title: "Name", field: "name.fullName" },
@@ -16,19 +13,11 @@ export default function FullRoster() {
     { title: "ID", field: "id", hidden: true }
   ];
 
-  const deactivatePlayer = (event, rowData) => {
-    const active = {
-      players: activeRoster.players.filter(player => player.id !== rowData.id)
-    };
-    console.log(`${rowData.name.fullName} is no longer available`);
-    setActiveRoster(active);
-  };
-
   return (
     <MaterialTable
       title="Active Roster"
       columns={columns}
-      data={activeRoster.players}
+      data={activeRoster}
       actions={[
         {
           icon: () => <Icon>add</Icon>,
