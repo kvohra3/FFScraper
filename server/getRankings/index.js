@@ -58,7 +58,11 @@ const getRankings = async currentRankings => {
   const espnRankings = await Promise.all(
     espnUrls.map(async urlObj => await getEspnData(urlObj))
   );
+  const fantasyProsRankings = await Promise.all(
+    fantasyProsUrls.map(async urlObj => await getFantasyProsRankings(urlObj))
+  );
   hash = espnRankings.reduce(averageRankings, hash);
+  hash = fantasyProsRankings.reduce(averageRankings, hash);
   return hash;
 };
 
