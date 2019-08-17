@@ -3,7 +3,7 @@ import MaterialTable from "material-table";
 import Icon from "@material-ui/core/Icon";
 
 export default function FullRoster(props) {
-  const { activeRoster, deactivatePlayer } = props;
+  const { activeRoster, deactivatePlayer, addPlayerToTeam } = props;
 
   const columns = [
     { title: "Name", field: "name.fullName" },
@@ -22,7 +22,7 @@ export default function FullRoster(props) {
         {
           icon: () => <Icon>add</Icon>,
           tooltip: "Add Player to team",
-          onClick: event => alert("You want to add a new row")
+          onClick: addPlayerToTeam
         },
         {
           icon: () => <Icon>clear</Icon>,

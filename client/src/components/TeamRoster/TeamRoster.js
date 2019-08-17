@@ -6,38 +6,15 @@ import PositionModal from "../PositionModal/PositionModal";
 
 const order = ["QB", "RB", "WR", "TE", "FLEX", "K", "D", "BENCH"];
 
-export default function TeamRoster() {
+export default function TeamRoster(props) {
+  const { team } = props;
   const [modalOpen, setModalOpen] = React.useState(false);
-  const [activeRoster, setActiveRoster] = useState({
-    players: [
-      { position: "QB" },
-
-      { position: "RB" },
-      { position: "RB" },
-
-      { position: "WR" },
-      { position: "WR" },
-      { position: "TE" },
-
-      { position: "FLEX" },
-      { position: "FLEX" },
-
-      { position: "K" },
-      { position: "D" },
-
-      { position: "BENCH" },
-      { position: "BENCH" },
-      { position: "BENCH" },
-      { position: "BENCH" },
-      { position: "BENCH" },
-      { position: "BENCH" }
-    ]
-  });
 
   const columns = [
     { title: "Name", field: "name.fullName" },
     { title: "Position", field: "position" },
     { title: "Bye Week", field: "byeWeek", type: "numeric" },
+    { title: "Rank", field: "rank", type: "numeric", hidden: true },
     { title: "ID", field: "id", hidden: true }
   ];
 
@@ -52,7 +29,7 @@ export default function TeamRoster() {
       <MaterialTable
         title="Team"
         columns={columns}
-        data={activeRoster.players}
+        data={team}
         actions={[
           {
             icon: () => <Icon>add</Icon>,
@@ -70,7 +47,7 @@ export default function TeamRoster() {
           search: false,
           paging: false,
           header: false,
-          pageSize: activeRoster.players.length
+          pageSize: team.length
         }}
       />
     </div>
