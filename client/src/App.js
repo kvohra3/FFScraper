@@ -1,5 +1,7 @@
 import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
 import "./App.css";
 
 import FullRoster from "./components/FullRoster/FullRoster";
@@ -11,7 +13,16 @@ import FullRoster from "./components/FullRoster/FullRoster";
 //   }
 //   return <TableRow>{row}</TableRow>;
 // };
-
+const gridStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: "center",
+    color: theme.palette.text.secondary
+  }
+}));
 export default class App extends React.Component {
   constructor() {
     super();
@@ -29,8 +40,17 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <FullRoster />
+      <div className="container-fluid">
+        <div className={gridStyles.root}>
+          <Grid container spacing={3}>
+            <Grid item xs={4}>
+              <Paper className={gridStyles.paper}>xs</Paper>
+            </Grid>
+            <Grid item xs>
+              <FullRoster />
+            </Grid>
+          </Grid>
+        </div>
       </div>
     );
   }
