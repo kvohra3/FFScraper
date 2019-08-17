@@ -8,8 +8,6 @@ export default function FullRoster() {
     players: mock_players_data
   });
 
-  const [selectedRow, setSelectedRow] = useState(null);
-
   const columns = [
     { title: "Name", field: "name.fullName" },
     { title: "Position", field: "position" },
@@ -17,6 +15,14 @@ export default function FullRoster() {
     { title: "Rank", field: "rank", type: "numeric" },
     { title: "ID", field: "id", hidden: true }
   ];
+
+  const deactivatePlayer = (event, rowData) => {
+    const active = {
+      players: activeRoster.players.filter(player => player.id !== rowData.id)
+    };
+    console.log(`${rowData.name.fullName} is no longer available`);
+    setActiveRoster(active);
+  };
 
   return (
     <MaterialTable
@@ -30,11 +36,16 @@ export default function FullRoster() {
           onClick: event => alert("You want to add a new row")
         },
         {
-          icon: () => <Icon>delete</Icon>,
-          tooltip: "Delete User",
-          onClick: event => alert("You want to delete a new row")
+          icon: () => <Icon>clear</Icon>,
+          tooltip: "Player is no longer available",
+          onClick: deactivatePlayer
         }
       ]}
+      options={{
+        grouping: true,
+        pageSize: 25,
+        pageSizeOptions: [5, 10, 25, 50, 100]
+      }}
     />
   );
 }

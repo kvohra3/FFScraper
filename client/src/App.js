@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import "./App.css";
 
 import FullRoster from "./components/FullRoster/FullRoster";
+import TeamRoster from "./components/TeamRoster/TeamRoster";
 
 // const generateRow = (col = 2, text = ["Test"]) => {
 //   const row = [];
@@ -40,11 +41,11 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <div className={gridStyles.root}>
-          <Grid container spacing={3}>
+          <Grid container spacing={2}>
             <Grid item xs={4}>
-              <Paper className={gridStyles.paper}>xs</Paper>
+              <TeamRoster />
             </Grid>
             <Grid item xs>
               <FullRoster />
