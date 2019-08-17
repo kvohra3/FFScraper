@@ -3,9 +3,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import "./App.css";
 
-import mock_players_data from "./MOCK_DATA/roster.json";
 import FullRoster from "./components/FullRoster/FullRoster";
 import TeamRoster from "./components/TeamRoster/TeamRoster";
+
+const order = ["QB", "RB", "WR", "TE", "FLEX", "K", "D", "BENCH"];
 
 const gridStyles = makeStyles(theme => ({
   root: {

@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import MaterialTable from "material-table";
 import Icon from "@material-ui/core/Icon";
 import Modal from "@material-ui/core/Modal";
 import PositionModal from "../PositionModal/PositionModal";
-
-const order = ["QB", "RB", "WR", "TE", "FLEX", "K", "D", "BENCH"];
 
 export default function TeamRoster(props) {
   const { team, reactivatePlayer } = props;
