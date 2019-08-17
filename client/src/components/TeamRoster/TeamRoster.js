@@ -14,6 +14,7 @@ export default function TeamRoster(props) {
     { title: "Name", field: "name.fullName" },
     { title: "Team_Position", field: "team_position" },
     { title: "Bye Week", field: "byeWeek", type: "numeric" },
+    { title: "Team", field: "team", hidden: true },
     { title: "Position", field: "position", hidden: true },
     { title: "Rank", field: "rank", type: "numeric", hidden: true },
     { title: "ID", field: "id", hidden: true }

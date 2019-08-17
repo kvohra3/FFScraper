@@ -8,6 +8,7 @@ export default function FullRoster(props) {
   const columns = [
     { title: "Name", field: "name.fullName" },
     { title: "Position", field: "position" },
+    { title: "Team", field: "team" },
     { title: "Bye Week", field: "byeWeek", type: "numeric" },
     { title: "Rank", field: "rank", type: "numeric" },
     { title: "ID", field: "id", hidden: true }

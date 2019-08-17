@@ -99,7 +99,7 @@ const scrape = async ({ url, tableLocStr }) => {
   }
 };
 
-const setUpPlayer = (str, position, byeWeeks) => {
+const setUpPlayer = (str, position, byeWeeks, rankings) => {
   /*
   parse name given from draftwizard and return player obj
 
@@ -122,8 +122,12 @@ const setUpPlayer = (str, position, byeWeeks) => {
   const names = fullName.split(" ");
 
   // generate player id
-  const id = names.reduce((acc, cv) => {
-    acc = acc + cv[0];
+  // TODO: update id to be position_team_`{firstIntial}{lastInital}{lastSecondLetter}`
+  const id = names.reduce((acc, cv, index) => {
+    if (index < 2) {
+      acc = acc + cv[0];
+      return acc;
+    }
     return acc;
   }, `${position}_${team}_`);
 
@@ -141,6 +145,7 @@ const setUpPlayer = (str, position, byeWeeks) => {
 
   return {
     id,
+    team,
     name: {
       firstName,
       lastName,
@@ -149,7 +154,7 @@ const setUpPlayer = (str, position, byeWeeks) => {
     },
     position,
     byeWeek,
-    rank: -1
+    rank: 9999
   };
 };
 
@@ -167,6 +172,9 @@ const getRoster = async urlObj => {
     },
     []
   );
+
+  // console.log("rankingsHash", rankingsHash);
+  // fullRoster.forEach(player => (player.rank = rankingsHash[player.id]));
   // console.log(fullRoster);
   return fullRoster;
 };

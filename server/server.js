@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { getRoster } = require("./utils/index");
+const { getRankings } = require("./getRankings/index");
 
 const app = express();
 const port = 2000;
@@ -15,7 +16,8 @@ app.get("/get/roster", async (req, res) => {
     tableLocStr: "div.SingleCheatSheet div.LiveCheatSheet"
   };
   const roster = await getRoster(rosterUrl);
-  res.json(roster);
+  const rankings = await getRankings(roster);
+  res.json(roster.map(player => ({ ...player, rank: rankings[player.id] })));
 });
 
 app.listen(port, () => console.log(`listening on port: ${port}`));

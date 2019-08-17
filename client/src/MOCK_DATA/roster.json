@@ -1,3241 +1,3513 @@
 [
-    {
-      "id": "QB_KC_PM",
-      "name": {
-        "firstName": "Patrick",
-        "lastName": "Mahomes",
-        "middleName": "",
-        "fullName": "Patrick Mahomes"
-      },
-      "position": "QB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "QB_HOU_DW",
-      "name": {
-        "firstName": "Deshaun",
-        "lastName": "Watson",
-        "middleName": "",
-        "fullName": "Deshaun Watson"
-      },
-      "position": "QB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "QB_GB_AR",
-      "name": {
-        "firstName": "Aaron",
-        "lastName": "Rodgers",
-        "middleName": "",
-        "fullName": "Aaron Rodgers"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_IND_AL",
-      "name": {
-        "firstName": "Andrew",
-        "lastName": "Luck",
-        "middleName": "",
-        "fullName": "Andrew Luck"
-      },
-      "position": "QB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "QB_CLE_BM",
-      "name": {
-        "firstName": "Baker",
-        "lastName": "Mayfield",
-        "middleName": "",
-        "fullName": "Baker Mayfield"
-      },
-      "position": "QB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "QB_ATL_MR",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "Ryan",
-        "middleName": "",
-        "fullName": "Matt Ryan"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_CAR_CN",
-      "name": {
-        "firstName": "Cam",
-        "lastName": "Newton",
-        "middleName": "",
-        "fullName": "Cam Newton"
-      },
-      "position": "QB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "QB_PHI_CW",
-      "name": {
-        "firstName": "Carson",
-        "lastName": "Wentz",
-        "middleName": "",
-        "fullName": "Carson Wentz"
-      },
-      "position": "QB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "QB_SEA_RW",
-      "name": {
-        "firstName": "Russell",
-        "lastName": "Wilson",
-        "middleName": "",
-        "fullName": "Russell Wilson"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_LAR_JG",
-      "name": {
-        "firstName": "Jared",
-        "lastName": "Goff",
-        "middleName": "",
-        "fullName": "Jared Goff"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_NO_DB",
-      "name": {
-        "firstName": "Drew",
-        "lastName": "Brees",
-        "middleName": "",
-        "fullName": "Drew Brees"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_ARI_KM",
-      "name": {
-        "firstName": "Kyler",
-        "lastName": "Murray",
-        "middleName": "",
-        "fullName": "Kyler Murray"
-      },
-      "position": "QB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "QB_TB_JW",
-      "name": {
-        "firstName": "Jameis",
-        "lastName": "Winston",
-        "middleName": "",
-        "fullName": "Jameis Winston"
-      },
-      "position": "QB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "QB_PIT_BR",
-      "name": {
-        "firstName": "Ben",
-        "lastName": "Roethlisberger",
-        "middleName": "",
-        "fullName": "Ben Roethlisberger"
-      },
-      "position": "QB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "QB_BAL_LJ",
-      "name": {
-        "firstName": "Lamar",
-        "lastName": "Jackson",
-        "middleName": "",
-        "fullName": "Lamar Jackson"
-      },
-      "position": "QB",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "QB_DAL_DP",
-      "name": {
-        "firstName": "Dak",
-        "lastName": "Prescott",
-        "middleName": "",
-        "fullName": "Dak Prescott"
-      },
-      "position": "QB",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "QB_LAC_PR",
-      "name": {
-        "firstName": "Philip",
-        "lastName": "Rivers",
-        "middleName": "",
-        "fullName": "Philip Rivers"
-      },
-      "position": "QB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "QB_MIN_KC",
-      "name": {
-        "firstName": "Kirk",
-        "lastName": "Cousins",
-        "middleName": "",
-        "fullName": "Kirk Cousins"
-      },
-      "position": "QB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "QB_CHI_MT",
-      "name": {
-        "firstName": "Mitch",
-        "lastName": "Trubisky",
-        "middleName": "",
-        "fullName": "Mitch Trubisky"
-      },
-      "position": "QB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "QB_BUF_JA",
-      "name": {
-        "firstName": "Josh",
-        "lastName": "Allen",
-        "middleName": "",
-        "fullName": "Josh Allen"
-      },
-      "position": "QB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "QB_NE_TB",
-      "name": {
-        "firstName": "Tom",
-        "lastName": "Brady",
-        "middleName": "",
-        "fullName": "Tom Brady"
-      },
-      "position": "QB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "QB_SF_JG",
-      "name": {
-        "firstName": "Jimmy",
-        "lastName": "Garoppolo",
-        "middleName": "",
-        "fullName": "Jimmy Garoppolo"
-      },
-      "position": "QB",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "QB_NYJ_SD",
-      "name": {
-        "firstName": "Sam",
-        "lastName": "Darnold",
-        "middleName": "",
-        "fullName": "Sam Darnold"
-      },
-      "position": "QB",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "QB_DET_MS",
-      "name": {
-        "firstName": "Matthew",
-        "lastName": "Stafford",
-        "middleName": "",
-        "fullName": "Matthew Stafford"
-      },
-      "position": "QB",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "QB_OAK_DC",
-      "name": {
-        "firstName": "Derek",
-        "lastName": "Carr",
-        "middleName": "",
-        "fullName": "Derek Carr"
-      },
-      "position": "QB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "QB_CIN_AD",
-      "name": {
-        "firstName": "Andy",
-        "lastName": "Dalton",
-        "middleName": "",
-        "fullName": "Andy Dalton"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_JAC_NF",
-      "name": {
-        "firstName": "Nick",
-        "lastName": "Foles",
-        "middleName": "",
-        "fullName": "Nick Foles"
-      },
-      "position": "QB",
-      "rank": 1
-    },
-    {
-      "id": "QB_TEN_MM",
-      "name": {
-        "firstName": "Marcus",
-        "lastName": "Mariota",
-        "middleName": "",
-        "fullName": "Marcus Mariota"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_DEN_JF",
-      "name": {
-        "firstName": "Joe",
-        "lastName": "Flacco",
-        "middleName": "",
-        "fullName": "Joe Flacco"
-      },
-      "position": "QB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "QB_NYG_EM",
-      "name": {
-        "firstName": "Eli",
-        "lastName": "Manning",
-        "middleName": "",
-        "fullName": "Eli Manning"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_MIA_RF",
-      "name": {
-        "firstName": "Ryan",
-        "lastName": "Fitzpatrick",
-        "middleName": "",
-        "fullName": "Ryan Fitzpatrick"
-      },
-      "position": "QB",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "QB_WAS_DH",
-      "name": {
-        "firstName": "Dwayne",
-        "lastName": "Haskins",
-        "middleName": "",
-        "fullName": "Dwayne Haskins"
-      },
-      "position": "QB",
-      "rank": 1
-    },
-    {
-      "id": "QB_MIA_JR",
-      "name": {
-        "firstName": "Josh",
-        "lastName": "Rosen",
-        "middleName": "",
-        "fullName": "Josh Rosen"
-      },
-      "position": "QB",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "QB_WAS_CK",
-      "name": {
-        "firstName": "Case",
-        "lastName": "Keenum",
-        "middleName": "",
-        "fullName": "Case Keenum"
-      },
-      "position": "QB",
-      "rank": 1
-    },
-    {
-      "id": "QB_NYG_DJ",
-      "name": {
-        "firstName": "Daniel",
-        "lastName": "Jones",
-        "middleName": "",
-        "fullName": "Daniel Jones"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_TEN_RT",
-      "name": {
-        "firstName": "Ryan",
-        "lastName": "Tannehill",
-        "middleName": "",
-        "fullName": "Ryan Tannehill"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_DEN_DL",
-      "name": {
-        "firstName": "Drew",
-        "lastName": "Lock",
-        "middleName": "",
-        "fullName": "Drew Lock"
-      },
-      "position": "QB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "QB_LAR_BB",
-      "name": {
-        "firstName": "Blake",
-        "lastName": "Bortles",
-        "middleName": "",
-        "fullName": "Blake Bortles"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_NO_TH",
-      "name": {
-        "firstName": "Taysom",
-        "lastName": "Hill",
-        "middleName": "",
-        "fullName": "Taysom Hill"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_CAR_WG",
-      "name": {
-        "firstName": "Will",
-        "lastName": "Grier",
-        "middleName": "",
-        "fullName": "Will Grier"
-      },
-      "position": "QB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "QB_NO_TB",
-      "name": {
-        "firstName": "Teddy",
-        "lastName": "Bridgewater",
-        "middleName": "",
-        "fullName": "Teddy Bridgewater"
-      },
-      "position": "QB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "QB_IND_JB",
-      "name": {
-        "firstName": "Jacoby",
-        "lastName": "Brissett",
-        "middleName": "",
-        "fullName": "Jacoby Brissett"
-      },
-      "position": "QB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "QB_SF_NM",
-      "name": {
-        "firstName": "Nick",
-        "lastName": "Mullens",
-        "middleName": "",
-        "fullName": "Nick Mullens"
-      },
-      "position": "QB",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "QB_LAC_TT",
-      "name": {
-        "firstName": "Tyrod",
-        "lastName": "Taylor",
-        "middleName": "",
-        "fullName": "Tyrod Taylor"
-      },
-      "position": "QB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "QB_WAS_CM",
-      "name": {
-        "firstName": "Colt",
-        "lastName": "McCoy",
-        "middleName": "",
-        "fullName": "Colt McCoy"
-      },
-      "position": "QB",
-      "rank": 1
-    },
-    {
-      "id": "QB_BAL_RG",
-      "name": {
-        "firstName": "Robert",
-        "lastName": "Griffin",
-        "middleName": "",
-        "fullName": "Robert Griffin"
-      },
-      "position": "QB",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "QB_HOU_AM",
-      "name": {
-        "firstName": "AJ",
-        "lastName": "McCarron",
-        "middleName": "",
-        "fullName": "AJ McCarron"
-      },
-      "position": "QB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "QB_GB_DK",
-      "name": {
-        "firstName": "DeShone",
-        "lastName": "Kizer",
-        "middleName": "",
-        "fullName": "DeShone Kizer"
-      },
-      "position": "QB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "QB_BUF_MB",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "Barkley",
-        "middleName": "",
-        "fullName": "Matt Barkley"
-      },
-      "position": "QB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "QB_TB_BG",
-      "name": {
-        "firstName": "Blaine",
-        "lastName": "Gabbert",
-        "middleName": "",
-        "fullName": "Blaine Gabbert"
-      },
-      "position": "QB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_NYG_SB",
-      "name": {
-        "firstName": "Saquon",
-        "lastName": "Barkley",
-        "middleName": "",
-        "fullName": "Saquon Barkley"
-      },
-      "position": "RB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "RB_CAR_CM",
-      "name": {
-        "firstName": "Christian",
-        "lastName": "McCaffrey",
-        "middleName": "",
-        "fullName": "Christian McCaffrey"
-      },
-      "position": "RB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_NO_AK",
-      "name": {
-        "firstName": "Alvin",
-        "lastName": "Kamara",
-        "middleName": "",
-        "fullName": "Alvin Kamara"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "RB_DAL_EE",
-      "name": {
-        "firstName": "Ezekiel",
-        "lastName": "Elliott",
-        "middleName": "",
-        "fullName": "Ezekiel Elliott"
-      },
-      "position": "RB",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "RB_ARI_DJ",
-      "name": {
-        "firstName": "David",
-        "lastName": "Johnson",
-        "middleName": "",
-        "fullName": "David Johnson"
-      },
-      "position": "RB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "RB_PIT_JC",
-      "name": {
-        "firstName": "James",
-        "lastName": "Conner",
-        "middleName": "",
-        "fullName": "James Conner"
-      },
-      "position": "RB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_NYJ_LB",
-      "name": {
-        "firstName": "Le'Veon",
-        "lastName": "Bell",
-        "middleName": "",
-        "fullName": "Le'Veon Bell"
-      },
-      "position": "RB",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "RB_CLE_NC",
-      "name": {
-        "firstName": "Nick",
-        "lastName": "Chubb",
-        "middleName": "",
-        "fullName": "Nick Chubb"
-      },
-      "position": "RB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_CIN_JM",
-      "name": {
-        "firstName": "Joe",
-        "lastName": "Mixon",
-        "middleName": "",
-        "fullName": "Joe Mixon"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "RB_MIN_DC",
-      "name": {
-        "firstName": "Dalvin",
-        "lastName": "Cook",
-        "middleName": "",
-        "fullName": "Dalvin Cook"
-      },
-      "position": "RB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "RB_LAR_TG",
-      "name": {
-        "firstName": "Todd",
-        "lastName": "Gurley",
-        "middleName": "",
-        "fullName": "Todd Gurley"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "RB_KC_DW",
-      "name": {
-        "firstName": "Damien",
-        "lastName": "Williams",
-        "middleName": "",
-        "fullName": "Damien Williams"
-      },
-      "position": "RB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "RB_DET_KJ",
-      "name": {
-        "firstName": "Kerryon",
-        "lastName": "Johnson",
-        "middleName": "",
-        "fullName": "Kerryon Johnson"
-      },
-      "position": "RB",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "RB_LAC_MG",
-      "name": {
-        "firstName": "Melvin",
-        "lastName": "Gordon",
-        "middleName": "",
-        "fullName": "Melvin Gordon"
-      },
-      "position": "RB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "RB_GB_AJ",
-      "name": {
-        "firstName": "Aaron",
-        "lastName": "Jones",
-        "middleName": "",
-        "fullName": "Aaron Jones"
-      },
-      "position": "RB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "RB_IND_MM",
-      "name": {
-        "firstName": "Marlon",
-        "lastName": "Mack",
-        "middleName": "",
-        "fullName": "Marlon Mack"
-      },
-      "position": "RB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "RB_ATL_DF",
-      "name": {
-        "firstName": "Devonta",
-        "lastName": "Freeman",
-        "middleName": "",
-        "fullName": "Devonta Freeman"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "RB_JAC_LF",
-      "name": {
-        "firstName": "Leonard",
-        "lastName": "Fournette",
-        "middleName": "",
-        "fullName": "Leonard Fournette"
-      },
-      "position": "RB",
-      "rank": 1
-    },
-    {
-      "id": "RB_TEN_DH",
-      "name": {
-        "firstName": "Derrick",
-        "lastName": "Henry",
-        "middleName": "",
-        "fullName": "Derrick Henry"
-      },
-      "position": "RB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "RB_OAK_JJ",
-      "name": {
-        "firstName": "Josh",
-        "lastName": "Jacobs",
-        "middleName": "",
-        "fullName": "Josh Jacobs"
-      },
-      "position": "RB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "RB_SEA_CC",
-      "name": {
-        "firstName": "Chris",
-        "lastName": "Carson",
-        "middleName": "",
-        "fullName": "Chris Carson"
-      },
-      "position": "RB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "RB_BAL_MI",
-      "name": {
-        "firstName": "Mark",
-        "lastName": "Ingram",
-        "middleName": "",
-        "fullName": "Mark Ingram"
-      },
-      "position": "RB",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "RB_CHI_DM",
-      "name": {
-        "firstName": "David",
-        "lastName": "Montgomery",
-        "middleName": "",
-        "fullName": "David Montgomery"
-      },
-      "position": "RB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "RB_NE_SM",
-      "name": {
-        "firstName": "Sony",
-        "lastName": "Michel",
-        "middleName": "",
-        "fullName": "Sony Michel"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_DEN_PL",
-      "name": {
-        "firstName": "Phillip",
-        "lastName": "Lindsay",
-        "middleName": "",
-        "fullName": "Phillip Lindsay"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_NE_JW",
-      "name": {
-        "firstName": "James",
-        "lastName": "White",
-        "middleName": "",
-        "fullName": "James White"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_SF_TC",
-      "name": {
-        "firstName": "Tevin",
-        "lastName": "Coleman",
-        "middleName": "",
-        "fullName": "Tevin Coleman"
-      },
-      "position": "RB",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "RB_MIA_KD",
-      "name": {
-        "firstName": "Kenyan",
-        "lastName": "Drake",
-        "middleName": "",
-        "fullName": "Kenyan Drake"
-      },
-      "position": "RB",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "RB_HOU_LM",
-      "name": {
-        "firstName": "Lamar",
-        "lastName": "Miller",
-        "middleName": "",
-        "fullName": "Lamar Miller"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_CHI_TC",
-      "name": {
-        "firstName": "Tarik",
-        "lastName": "Cohen",
-        "middleName": "",
-        "fullName": "Tarik Cohen"
-      },
-      "position": "RB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "RB_NO_LM",
-      "name": {
-        "firstName": "Latavius",
-        "lastName": "Murray",
-        "middleName": "",
-        "fullName": "Latavius Murray"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "RB_SEA_RP",
-      "name": {
-        "firstName": "Rashaad",
-        "lastName": "Penny",
-        "middleName": "",
-        "fullName": "Rashaad Penny"
-      },
-      "position": "RB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "RB_PHI_MS",
-      "name": {
-        "firstName": "Miles",
-        "lastName": "Sanders",
-        "middleName": "",
-        "fullName": "Miles Sanders"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_WAS_DG",
-      "name": {
-        "firstName": "Derrius",
-        "lastName": "Guice",
-        "middleName": "",
-        "fullName": "Derrius Guice"
-      },
-      "position": "RB",
-      "rank": 1
-    },
-    {
-      "id": "RB_LAC_AE",
-      "name": {
-        "firstName": "Austin",
-        "lastName": "Ekeler",
-        "middleName": "",
-        "fullName": "Austin Ekeler"
-      },
-      "position": "RB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "RB_DEN_RF",
-      "name": {
-        "firstName": "Royce",
-        "lastName": "Freeman",
-        "middleName": "",
-        "fullName": "Royce Freeman"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_PHI_JH",
-      "name": {
-        "firstName": "Jordan",
-        "lastName": "Howard",
-        "middleName": "",
-        "fullName": "Jordan Howard"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_LAR_DH",
-      "name": {
-        "firstName": "Darrell",
-        "lastName": "Henderson",
-        "middleName": "",
-        "fullName": "Darrell Henderson"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "RB_BUF_LM",
-      "name": {
-        "firstName": "LeSean",
-        "lastName": "McCoy",
-        "middleName": "",
-        "fullName": "LeSean McCoy"
-      },
-      "position": "RB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "RB_SF_MB",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "Breida",
-        "middleName": "",
-        "fullName": "Matt Breida"
-      },
-      "position": "RB",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "RB_TB_RJI",
-      "name": {
-        "firstName": "Ronald",
-        "lastName": "II",
-        "middleName": "Jones",
-        "fullName": "Ronald Jones II"
-      },
-      "position": "RB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_TEN_DL",
-      "name": {
-        "firstName": "Dion",
-        "lastName": "Lewis",
-        "middleName": "",
-        "fullName": "Dion Lewis"
-      },
-      "position": "RB",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "RB_MIA_KB",
-      "name": {
-        "firstName": "Kalen",
-        "lastName": "Ballage",
-        "middleName": "",
-        "fullName": "Kalen Ballage"
-      },
-      "position": "RB",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "RB_TB_PB",
-      "name": {
-        "firstName": "Peyton",
-        "lastName": "Barber",
-        "middleName": "",
-        "fullName": "Peyton Barber"
-      },
-      "position": "RB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_IND_NH",
-      "name": {
-        "firstName": "Nyheim",
-        "lastName": "Hines",
-        "middleName": "",
-        "fullName": "Nyheim Hines"
-      },
-      "position": "RB",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "RB_HOU_DJ",
-      "name": {
-        "firstName": "Duke",
-        "lastName": "Johnson",
-        "middleName": "",
-        "fullName": "Duke Johnson"
-      },
-      "position": "RB",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "RB_WAS_AP",
-      "name": {
-        "firstName": "Adrian",
-        "lastName": "Peterson",
-        "middleName": "",
-        "fullName": "Adrian Peterson"
-      },
-      "position": "RB",
-      "rank": 1
-    },
-    {
-      "id": "RB_KC_CH",
-      "name": {
-        "firstName": "Carlos",
-        "lastName": "Hyde",
-        "middleName": "",
-        "fullName": "Carlos Hyde"
-      },
-      "position": "RB",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "RB_PIT_JS",
-      "name": {
-        "firstName": "Jaylen",
-        "lastName": "Samuels",
-        "middleName": "",
-        "fullName": "Jaylen Samuels"
-      },
-      "position": "RB",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "RB_ATL_IS",
-      "name": {
-        "firstName": "Ito",
-        "lastName": "Smith",
-        "middleName": "",
-        "fullName": "Ito Smith"
-      },
-      "position": "RB",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_HOU_DH",
-      "name": {
-        "firstName": "DeAndre",
-        "lastName": "Hopkins",
-        "middleName": "",
-        "fullName": "DeAndre Hopkins"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_GB_DA",
-      "name": {
-        "firstName": "Davante",
-        "lastName": "Adams",
-        "middleName": "",
-        "fullName": "Davante Adams"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_ATL_JJ",
-      "name": {
-        "firstName": "Julio",
-        "lastName": "Jones",
-        "middleName": "",
-        "fullName": "Julio Jones"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_CLE_OBJ",
-      "name": {
-        "firstName": "Odell",
-        "lastName": "Jr.",
-        "middleName": "Beckham",
-        "fullName": "Odell Beckham Jr."
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_NO_MT",
-      "name": {
-        "firstName": "Michael",
-        "lastName": "Thomas",
-        "middleName": "",
-        "fullName": "Michael Thomas"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_PIT_JS",
-      "name": {
-        "firstName": "JuJu",
-        "lastName": "Smith-Schuster",
-        "middleName": "",
-        "fullName": "JuJu Smith-Schuster"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_KC_TH",
-      "name": {
-        "firstName": "Tyreek",
-        "lastName": "Hill",
-        "middleName": "",
-        "fullName": "Tyreek Hill"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_TB_ME",
-      "name": {
-        "firstName": "Mike",
-        "lastName": "Evans",
-        "middleName": "",
-        "fullName": "Mike Evans"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_LAC_KA",
-      "name": {
-        "firstName": "Keenan",
-        "lastName": "Allen",
-        "middleName": "",
-        "fullName": "Keenan Allen"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_IND_T",
-      "name": {
-        "firstName": "T.Y",
-        "middleName": "",
-        "fullName": "T.Y"
-      },
-      "position": "WR",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "WR_OAK_AB",
-      "name": {
-        "firstName": "Antonio",
-        "lastName": "Brown",
-        "middleName": "",
-        "fullName": "Antonio Brown"
-      },
-      "position": "WR",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "WR_DAL_AC",
-      "name": {
-        "firstName": "Amari",
-        "lastName": "Cooper",
-        "middleName": "",
-        "fullName": "Amari Cooper"
-      },
-      "position": "WR",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "WR_MIN_AT",
-      "name": {
-        "firstName": "Adam",
-        "lastName": "Thielen",
-        "middleName": "",
-        "fullName": "Adam Thielen"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_MIN_SD",
-      "name": {
-        "firstName": "Stefon",
-        "lastName": "Diggs",
-        "middleName": "",
-        "fullName": "Stefon Diggs"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_NE_JE",
-      "name": {
-        "firstName": "Julian",
-        "lastName": "Edelman",
-        "middleName": "",
-        "fullName": "Julian Edelman"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_LAR_BC",
-      "name": {
-        "firstName": "Brandin",
-        "lastName": "Cooks",
-        "middleName": "",
-        "fullName": "Brandin Cooks"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_LAR_RW",
-      "name": {
-        "firstName": "Robert",
-        "lastName": "Woods",
-        "middleName": "",
-        "fullName": "Robert Woods"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_TB_CG",
-      "name": {
-        "firstName": "Chris",
-        "lastName": "Godwin",
-        "middleName": "",
-        "fullName": "Chris Godwin"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_DET_KG",
-      "name": {
-        "firstName": "Kenny",
-        "lastName": "Golladay",
-        "middleName": "",
-        "fullName": "Kenny Golladay"
-      },
-      "position": "WR",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "WR_SEA_TL",
-      "name": {
-        "firstName": "Tyler",
-        "lastName": "Lockett",
-        "middleName": "",
-        "fullName": "Tyler Lockett"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_LAR_CK",
-      "name": {
-        "firstName": "Cooper",
-        "lastName": "Kupp",
-        "middleName": "",
-        "fullName": "Cooper Kupp"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_CIN_TB",
-      "name": {
-        "firstName": "Tyler",
-        "lastName": "Boyd",
-        "middleName": "",
-        "fullName": "Tyler Boyd"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_ATL_CR",
-      "name": {
-        "firstName": "Calvin",
-        "lastName": "Ridley",
-        "middleName": "",
-        "fullName": "Calvin Ridley"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_PHI_AJ",
-      "name": {
-        "firstName": "Alshon",
-        "lastName": "Jeffery",
-        "middleName": "",
-        "fullName": "Alshon Jeffery"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_CAR_D",
-      "name": {
-        "firstName": "D.J",
-        "middleName": "",
-        "fullName": "D.J"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_CHI_AR",
-      "name": {
-        "firstName": "Allen",
-        "lastName": "Robinson",
-        "middleName": "",
-        "fullName": "Allen Robinson"
-      },
-      "position": "WR",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "WR_LAC_MW",
-      "name": {
-        "firstName": "Mike",
-        "lastName": "Williams",
-        "middleName": "",
-        "fullName": "Mike Williams"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_CIN_A",
-      "name": {
-        "firstName": "A.J",
-        "middleName": "",
-        "fullName": "A.J"
-      },
-      "position": "WR",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "WR_NYJ_RA",
-      "name": {
-        "firstName": "Robby",
-        "lastName": "Anderson",
-        "middleName": "",
-        "fullName": "Robby Anderson"
-      },
-      "position": "WR",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "WR_CLE_JL",
-      "name": {
-        "firstName": "Jarvis",
-        "lastName": "Landry",
-        "middleName": "",
-        "fullName": "Jarvis Landry"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_KC_SW",
-      "name": {
-        "firstName": "Sammy",
-        "lastName": "Watkins",
-        "middleName": "",
-        "fullName": "Sammy Watkins"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_TEN_CD",
-      "name": {
-        "firstName": "Corey",
-        "lastName": "Davis",
-        "middleName": "",
-        "fullName": "Corey Davis"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_ARI_CK",
-      "name": {
-        "firstName": "Christian",
-        "lastName": "Kirk",
-        "middleName": "",
-        "fullName": "Christian Kirk"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_HOU_WF",
-      "name": {
-        "firstName": "Will",
-        "lastName": "Fuller",
-        "middleName": "",
-        "fullName": "Will Fuller"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_DET_MJ",
-      "name": {
-        "firstName": "Marvin",
-        "lastName": "Jones",
-        "middleName": "",
-        "fullName": "Marvin Jones"
-      },
-      "position": "WR",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "WR_SF_DP",
-      "name": {
-        "firstName": "Dante",
-        "lastName": "Pettis",
-        "middleName": "",
-        "fullName": "Dante Pettis"
-      },
-      "position": "WR",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "WR_CAR_CS",
-      "name": {
-        "firstName": "Curtis",
-        "lastName": "Samuel",
-        "middleName": "",
-        "fullName": "Curtis Samuel"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_NYG_SS",
-      "name": {
-        "firstName": "Sterling",
-        "lastName": "Shepard",
-        "middleName": "",
-        "fullName": "Sterling Shepard"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_JAC_DW",
-      "name": {
-        "firstName": "Dede",
-        "lastName": "Westbrook",
-        "middleName": "",
-        "fullName": "Dede Westbrook"
-      },
-      "position": "WR",
-      "rank": 1
-    },
-    {
-      "id": "WR_ARI_LF",
-      "name": {
-        "firstName": "Larry",
-        "lastName": "Fitzgerald",
-        "middleName": "",
-        "fullName": "Larry Fitzgerald"
-      },
-      "position": "WR",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "WR_DEN_CS",
-      "name": {
-        "firstName": "Courtland",
-        "lastName": "Sutton",
-        "middleName": "",
-        "fullName": "Courtland Sutton"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_GB_GA",
-      "name": {
-        "firstName": "Geronimo",
-        "lastName": "Allison",
-        "middleName": "",
-        "fullName": "Geronimo Allison"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_CHI_AM",
-      "name": {
-        "firstName": "Anthony",
-        "lastName": "Miller",
-        "middleName": "",
-        "fullName": "Anthony Miller"
-      },
-      "position": "WR",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "WR_PHI_DJ",
-      "name": {
-        "firstName": "DeSean",
-        "lastName": "Jackson",
-        "middleName": "",
-        "fullName": "DeSean Jackson"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_GB_MV",
-      "name": {
-        "firstName": "Marquez",
-        "lastName": "Valdes-Scantling",
-        "middleName": "",
-        "fullName": "Marquez Valdes-Scantling"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_HOU_KC",
-      "name": {
-        "firstName": "Keke",
-        "lastName": "Coutee",
-        "middleName": "",
-        "fullName": "Keke Coutee"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_DEN_ES",
-      "name": {
-        "firstName": "Emmanuel",
-        "lastName": "Sanders",
-        "middleName": "",
-        "fullName": "Emmanuel Sanders"
-      },
-      "position": "WR",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "WR_PIT_DM",
-      "name": {
-        "firstName": "Donte",
-        "lastName": "Moncrief",
-        "middleName": "",
-        "fullName": "Donte Moncrief"
-      },
-      "position": "WR",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "WR_NYG_GT",
-      "name": {
-        "firstName": "Golden",
-        "lastName": "Tate",
-        "middleName": "",
-        "fullName": "Golden Tate"
-      },
-      "position": "WR",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "WR_IND_DF",
-      "name": {
-        "firstName": "Devin",
-        "lastName": "Funchess",
-        "middleName": "",
-        "fullName": "Devin Funchess"
-      },
-      "position": "WR",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "TE_KC_TK",
-      "name": {
-        "firstName": "Travis",
-        "lastName": "Kelce",
-        "middleName": "",
-        "fullName": "Travis Kelce"
-      },
-      "position": "TE",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "TE_SF_GK",
-      "name": {
-        "firstName": "George",
-        "lastName": "Kittle",
-        "middleName": "",
-        "fullName": "George Kittle"
-      },
-      "position": "TE",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "TE_PHI_ZE",
-      "name": {
-        "firstName": "Zach",
-        "lastName": "Ertz",
-        "middleName": "",
-        "fullName": "Zach Ertz"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_TB_O",
-      "name": {
-        "firstName": "O.J",
-        "middleName": "",
-        "fullName": "O.J"
-      },
-      "position": "TE",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "TE_NYG_EE",
-      "name": {
-        "firstName": "Evan",
-        "lastName": "Engram",
-        "middleName": "",
-        "fullName": "Evan Engram"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_LAC_HH",
-      "name": {
-        "firstName": "Hunter",
-        "lastName": "Henry",
-        "middleName": "",
-        "fullName": "Hunter Henry"
-      },
-      "position": "TE",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "TE_NO_JC",
-      "name": {
-        "firstName": "Jared",
-        "lastName": "Cook",
-        "middleName": "",
-        "fullName": "Jared Cook"
-      },
-      "position": "TE",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "TE_PIT_VM",
-      "name": {
-        "firstName": "Vance",
-        "lastName": "McDonald",
-        "middleName": "",
-        "fullName": "Vance McDonald"
-      },
-      "position": "TE",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "TE_IND_EE",
-      "name": {
-        "firstName": "Eric",
-        "lastName": "Ebron",
-        "middleName": "",
-        "fullName": "Eric Ebron"
-      },
-      "position": "TE",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "TE_CLE_DN",
-      "name": {
-        "firstName": "David",
-        "lastName": "Njoku",
-        "middleName": "",
-        "fullName": "David Njoku"
-      },
-      "position": "TE",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "TE_ATL_AH",
-      "name": {
-        "firstName": "Austin",
-        "lastName": "Hooper",
-        "middleName": "",
-        "fullName": "Austin Hooper"
-      },
-      "position": "TE",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "TE_TEN_DW",
-      "name": {
-        "firstName": "Delanie",
-        "lastName": "Walker",
-        "middleName": "",
-        "fullName": "Delanie Walker"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_CHI_TB",
-      "name": {
-        "firstName": "Trey",
-        "lastName": "Burton",
-        "middleName": "",
-        "fullName": "Trey Burton"
-      },
-      "position": "TE",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "TE_WAS_JR",
-      "name": {
-        "firstName": "Jordan",
-        "lastName": "Reed",
-        "middleName": "",
-        "fullName": "Jordan Reed"
-      },
-      "position": "TE",
-      "rank": 1
-    },
-    {
-      "id": "TE_BAL_MA",
-      "name": {
-        "firstName": "Mark",
-        "lastName": "Andrews",
-        "middleName": "",
-        "fullName": "Mark Andrews"
-      },
-      "position": "TE",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "TE_IND_JD",
-      "name": {
-        "firstName": "Jack",
-        "lastName": "Doyle",
-        "middleName": "",
-        "fullName": "Jack Doyle"
-      },
-      "position": "TE",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "TE_MIN_KR",
-      "name": {
-        "firstName": "Kyle",
-        "lastName": "Rudolph",
-        "middleName": "",
-        "fullName": "Kyle Rudolph"
-      },
-      "position": "TE",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "TE_GB_JG",
-      "name": {
-        "firstName": "Jimmy",
-        "lastName": "Graham",
-        "middleName": "",
-        "fullName": "Jimmy Graham"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_CAR_GO",
-      "name": {
-        "firstName": "Greg",
-        "lastName": "Olsen",
-        "middleName": "",
-        "fullName": "Greg Olsen"
-      },
-      "position": "TE",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "TE_DEN_NF",
-      "name": {
-        "firstName": "Noah",
-        "lastName": "Fant",
-        "middleName": "",
-        "fullName": "Noah Fant"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_DET_T",
-      "name": {
-        "firstName": "T.J",
-        "middleName": "",
-        "fullName": "T.J"
-      },
-      "position": "TE",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "TE_PHI_DG",
-      "name": {
-        "firstName": "Dallas",
-        "lastName": "Goedert",
-        "middleName": "",
-        "fullName": "Dallas Goedert"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_NYJ_CHI",
-      "name": {
-        "firstName": "Chris",
-        "lastName": "IV",
-        "middleName": "Herndon",
-        "fullName": "Chris Herndon IV"
-      },
-      "position": "TE",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "TE_MIA_MG",
-      "name": {
-        "firstName": "Mike",
-        "lastName": "Gesicki",
-        "middleName": "",
-        "fullName": "Mike Gesicki"
-      },
-      "position": "TE",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "TE_CIN_TE",
-      "name": {
-        "firstName": "Tyler",
-        "lastName": "Eifert",
-        "middleName": "",
-        "fullName": "Tyler Eifert"
-      },
-      "position": "TE",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "TE_LAR_GE",
-      "name": {
-        "firstName": "Gerald",
-        "lastName": "Everett",
-        "middleName": "",
-        "fullName": "Gerald Everett"
-      },
-      "position": "TE",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "TE_TB_CB",
-      "name": {
-        "firstName": "Cameron",
-        "lastName": "Brate",
-        "middleName": "",
-        "fullName": "Cameron Brate"
-      },
-      "position": "TE",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "TE_DAL_JW",
-      "name": {
-        "firstName": "Jason",
-        "lastName": "Witten",
-        "middleName": "",
-        "fullName": "Jason Witten"
-      },
-      "position": "TE",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "TE_ARI_RS",
-      "name": {
-        "firstName": "Ricky",
-        "lastName": "Seals-Jones",
-        "middleName": "",
-        "fullName": "Ricky Seals-Jones"
-      },
-      "position": "TE",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "TE_CAR_IT",
-      "name": {
-        "firstName": "Ian",
-        "lastName": "Thomas",
-        "middleName": "",
-        "fullName": "Ian Thomas"
-      },
-      "position": "TE",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "TE_BAL_HH",
-      "name": {
-        "firstName": "Hayden",
-        "lastName": "Hurst",
-        "middleName": "",
-        "fullName": "Hayden Hurst"
-      },
-      "position": "TE",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "TE_OAK_DW",
-      "name": {
-        "firstName": "Darren",
-        "lastName": "Waller",
-        "middleName": "",
-        "fullName": "Darren Waller"
-      },
-      "position": "TE",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "TE_SEA_NV",
-      "name": {
-        "firstName": "Nick",
-        "lastName": "Vannett",
-        "middleName": "",
-        "fullName": "Nick Vannett"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_ARI_CC",
-      "name": {
-        "firstName": "Charles",
-        "lastName": "Clay",
-        "middleName": "",
-        "fullName": "Charles Clay"
-      },
-      "position": "TE",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "TE_SEA_WD",
-      "name": {
-        "firstName": "Will",
-        "lastName": "Dissly",
-        "middleName": "",
-        "fullName": "Will Dissly"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_MIN_ISJ",
-      "name": {
-        "firstName": "Irv",
-        "lastName": "Jr.",
-        "middleName": "Smith",
-        "fullName": "Irv Smith Jr."
-      },
-      "position": "TE",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "TE_NE_ML",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "LaCosse",
-        "middleName": "",
-        "fullName": "Matt LaCosse"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_TEN_JS",
-      "name": {
-        "firstName": "Jonnu",
-        "lastName": "Smith",
-        "middleName": "",
-        "fullName": "Jonnu Smith"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_HOU_JT",
-      "name": {
-        "firstName": "Jordan",
-        "lastName": "Thomas",
-        "middleName": "",
-        "fullName": "Jordan Thomas"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_WAS_VD",
-      "name": {
-        "firstName": "Vernon",
-        "lastName": "Davis",
-        "middleName": "",
-        "fullName": "Vernon Davis"
-      },
-      "position": "TE",
-      "rank": 1
-    },
-    {
-      "id": "TE_DEN_JB",
-      "name": {
-        "firstName": "Jake",
-        "lastName": "Butt",
-        "middleName": "",
-        "fullName": "Jake Butt"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_NE_BW",
-      "name": {
-        "firstName": "Benjamin",
-        "lastName": "Watson",
-        "middleName": "",
-        "fullName": "Benjamin Watson"
-      },
-      "position": "TE",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "TE_JAC_GS",
-      "name": {
-        "firstName": "Geoff",
-        "lastName": "Swaim",
-        "middleName": "",
-        "fullName": "Geoff Swaim"
-      },
-      "position": "TE",
-      "rank": 1
-    },
-    {
-      "id": "TE_CIN_C",
-      "name": {
-        "firstName": "C.J",
-        "middleName": "",
-        "fullName": "C.J"
-      },
-      "position": "TE",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "TE_DAL_BJ",
-      "name": {
-        "firstName": "Blake",
-        "lastName": "Jarwin",
-        "middleName": "",
-        "fullName": "Blake Jarwin"
-      },
-      "position": "TE",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "TE_CHI_AS",
-      "name": {
-        "firstName": "Adam",
-        "lastName": "Shaheen",
-        "middleName": "",
-        "fullName": "Adam Shaheen"
-      },
-      "position": "TE",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "TE_JAC_JO",
-      "name": {
-        "firstName": "Josh",
-        "lastName": "Oliver",
-        "middleName": "",
-        "fullName": "Josh Oliver"
-      },
-      "position": "TE",
-      "rank": 1
-    },
-    {
-      "id": "TE_DET_JJ",
-      "name": {
-        "firstName": "Jesse",
-        "lastName": "James",
-        "middleName": "",
-        "fullName": "Jesse James"
-      },
-      "position": "TE",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "TE_GB_JS",
-      "name": {
-        "firstName": "Jace",
-        "lastName": "Sternberger",
-        "middleName": "",
-        "fullName": "Jace Sternberger"
-      },
-      "position": "TE",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "TE_BUF_DK",
-      "name": {
-        "firstName": "Dawson",
-        "lastName": "Knox",
-        "middleName": "",
-        "fullName": "Dawson Knox"
-      },
-      "position": "TE",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "K_LAR_GZ",
-      "name": {
-        "firstName": "Greg",
-        "lastName": "Zuerlein",
-        "middleName": "",
-        "fullName": "Greg Zuerlein"
-      },
-      "position": "K",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "K_BAL_JT",
-      "name": {
-        "firstName": "Justin",
-        "lastName": "Tucker",
-        "middleName": "",
-        "fullName": "Justin Tucker"
-      },
-      "position": "K",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "K_KC_HB",
-      "name": {
-        "firstName": "Harrison",
-        "lastName": "Butker",
-        "middleName": "",
-        "fullName": "Harrison Butker"
-      },
-      "position": "K",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "K_NE_SG",
-      "name": {
-        "firstName": "Stephen",
-        "lastName": "Gostkowski",
-        "middleName": "",
-        "fullName": "Stephen Gostkowski"
-      },
-      "position": "K",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "K_NO_WL",
-      "name": {
-        "firstName": "Wil",
-        "lastName": "Lutz",
-        "middleName": "",
-        "fullName": "Wil Lutz"
-      },
-      "position": "K",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "K_HOU_KF",
-      "name": {
-        "firstName": "Ka'imi",
-        "lastName": "Fairbairn",
-        "middleName": "",
-        "fullName": "Ka'imi Fairbairn"
-      },
-      "position": "K",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "K_GB_MC",
-      "name": {
-        "firstName": "Mason",
-        "lastName": "Crosby",
-        "middleName": "",
-        "fullName": "Mason Crosby"
-      },
-      "position": "K",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "K_PHI_JE",
-      "name": {
-        "firstName": "Jake",
-        "lastName": "Elliott",
-        "middleName": "",
-        "fullName": "Jake Elliott"
-      },
-      "position": "K",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "K_LAC_MB",
-      "name": {
-        "firstName": "Michael",
-        "lastName": "Badgley",
-        "middleName": "",
-        "fullName": "Michael Badgley"
-      },
-      "position": "K",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "K_SF_RG",
-      "name": {
-        "firstName": "Robbie",
-        "lastName": "Gould",
-        "middleName": "",
-        "fullName": "Robbie Gould"
-      },
-      "position": "K",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "K_DAL_BM",
-      "name": {
-        "firstName": "Brett",
-        "lastName": "Maher",
-        "middleName": "",
-        "fullName": "Brett Maher"
-      },
-      "position": "K",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "K_IND_AV",
-      "name": {
-        "firstName": "Adam",
-        "lastName": "Vinatieri",
-        "middleName": "",
-        "fullName": "Adam Vinatieri"
-      },
-      "position": "K",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "K_DET_MP",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "Prater",
-        "middleName": "",
-        "fullName": "Matt Prater"
-      },
-      "position": "K",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "K_SEA_JM",
-      "name": {
-        "firstName": "Jason",
-        "lastName": "Myers",
-        "middleName": "",
-        "fullName": "Jason Myers"
-      },
-      "position": "K",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "K_CAR_GG",
-      "name": {
-        "firstName": "Graham",
-        "lastName": "Gano",
-        "middleName": "",
-        "fullName": "Graham Gano"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "K_ATL_GT",
-      "name": {
-        "firstName": "Giorgio",
-        "lastName": "Tavecchio",
-        "middleName": "",
-        "fullName": "Giorgio Tavecchio"
-      },
-      "position": "K",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "K_PIT_CB",
-      "name": {
-        "firstName": "Chris",
-        "lastName": "Boswell",
-        "middleName": "",
-        "fullName": "Chris Boswell"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "K_NYG_AR",
-      "name": {
-        "firstName": "Aldrick",
-        "lastName": "Rosas",
-        "middleName": "",
-        "fullName": "Aldrick Rosas"
-      },
-      "position": "K",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "K_TEN_RS",
-      "name": {
-        "firstName": "Ryan",
-        "lastName": "Succop",
-        "middleName": "",
-        "fullName": "Ryan Succop"
-      },
-      "position": "K",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "K_MIN_DB",
-      "name": {
-        "firstName": "Dan",
-        "lastName": "Bailey",
-        "middleName": "",
-        "fullName": "Dan Bailey"
-      },
-      "position": "K",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "K_DEN_BM",
-      "name": {
-        "firstName": "Brandon",
-        "lastName": "McManus",
-        "middleName": "",
-        "fullName": "Brandon McManus"
-      },
-      "position": "K",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "K_CLE_GJ",
-      "name": {
-        "firstName": "Greg",
-        "lastName": "Joseph",
-        "middleName": "",
-        "fullName": "Greg Joseph"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "K_JAC_JL",
-      "name": {
-        "firstName": "Josh",
-        "lastName": "Lambo",
-        "middleName": "",
-        "fullName": "Josh Lambo"
-      },
-      "position": "K",
-      "rank": 1
-    },
-    {
-      "id": "K_BUF_SH",
-      "name": {
-        "firstName": "Steven",
-        "lastName": "Hauschka",
-        "middleName": "",
-        "fullName": "Steven Hauschka"
-      },
-      "position": "K",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "K_OAK_DC",
-      "name": {
-        "firstName": "Daniel",
-        "lastName": "Carlson",
-        "middleName": "",
-        "fullName": "Daniel Carlson"
-      },
-      "position": "K",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "K_TB_CS",
-      "name": {
-        "firstName": "Cairo",
-        "lastName": "Santos",
-        "middleName": "",
-        "fullName": "Cairo Santos"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "K_WAS_DH",
-      "name": {
-        "firstName": "Dustin",
-        "lastName": "Hopkins",
-        "middleName": "",
-        "fullName": "Dustin Hopkins"
-      },
-      "position": "K",
-      "rank": 1
-    },
-    {
-      "id": "K_ARI_ZG",
-      "name": {
-        "firstName": "Zane",
-        "lastName": "Gonzalez",
-        "middleName": "",
-        "fullName": "Zane Gonzalez"
-      },
-      "position": "K",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "K_CIN_RB",
-      "name": {
-        "firstName": "Randy",
-        "lastName": "Bullock",
-        "middleName": "",
-        "fullName": "Randy Bullock"
-      },
-      "position": "K",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "K_CHI_EP",
-      "name": {
-        "firstName": "Eddy",
-        "lastName": "Pineiro",
-        "middleName": "",
-        "fullName": "Eddy Pineiro"
-      },
-      "position": "K",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "K__CC",
-      "name": {
-        "firstName": "Chandler",
-        "lastName": "Catanzaro",
-        "middleName": "",
-        "fullName": "Chandler Catanzaro"
-      },
-      "position": "K",
-      "rank": 1
-    },
-    {
-      "id": "K_MIA_JS",
-      "name": {
-        "firstName": "Jason",
-        "lastName": "Sanders",
-        "middleName": "",
-        "fullName": "Jason Sanders"
-      },
-      "position": "K",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "K_TB_MG",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "Gay",
-        "middleName": "",
-        "fullName": "Matt Gay"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "K_CLE_AS",
-      "name": {
-        "firstName": "Austin",
-        "lastName": "Seibert",
-        "middleName": "",
-        "fullName": "Austin Seibert"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "K__MB",
-      "name": {
-        "firstName": "Matt",
-        "lastName": "Bryant",
-        "middleName": "",
-        "fullName": "Matt Bryant"
-      },
-      "position": "K",
-      "rank": 1
-    },
-    {
-      "id": "K_NYJ_TB",
-      "name": {
-        "firstName": "Taylor",
-        "lastName": "Bertolet",
-        "middleName": "",
-        "fullName": "Taylor Bertolet"
-      },
-      "position": "K",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "K__CP",
-      "name": {
-        "firstName": "Cody",
-        "lastName": "Parkey",
-        "middleName": "",
-        "fullName": "Cody Parkey"
-      },
-      "position": "K",
-      "rank": 1
-    },
-    {
-      "id": "K_CHI_EF",
-      "name": {
-        "firstName": "Elliott",
-        "lastName": "Fry",
-        "middleName": "",
-        "fullName": "Elliott Fry"
-      },
-      "position": "K",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "K_SF_AJ",
-      "name": {
-        "firstName": "Andrew",
-        "lastName": "Jacas",
-        "middleName": "",
-        "fullName": "Andrew Jacas"
-      },
-      "position": "K",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "K_CAR_AW",
-      "name": {
-        "firstName": "Andrew",
-        "lastName": "Wellock",
-        "middleName": "",
-        "fullName": "Andrew Wellock"
-      },
-      "position": "K",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "D_CHI_CB",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Chicago Bears"
-      },
-      "position": "D",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "D_JAC_JJ",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Jacksonville Jaguars"
-      },
-      "position": "D",
-      "rank": 1
-    },
-    {
-      "id": "D_LAR_LAR",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Los Angeles Rams"
-      },
-      "position": "D",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "D_BAL_BR",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Baltimore Ravens"
-      },
-      "position": "D",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "D_MIN_MV",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Minnesota Vikings"
-      },
-      "position": "D",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "D_LAC_LAC",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Los Angeles Chargers"
-      },
-      "position": "D",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "D_HOU_HT",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Houston Texans"
-      },
-      "position": "D",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "D_CLE_CB",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Cleveland Browns"
-      },
-      "position": "D",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "D_NO_NOS",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "New Orleans Saints"
-      },
-      "position": "D",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "D_DEN_DB",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Denver Broncos"
-      },
-      "position": "D",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "D_NE_NEP",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "New England Patriots"
-      },
-      "position": "D",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "D_DAL_DC",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Dallas Cowboys"
-      },
-      "position": "D",
-      "byeWeek": 8,
-      "rank": 1
-    },
-    {
-      "id": "D_PHI_PE",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Philadelphia Eagles"
-      },
-      "position": "D",
-      "byeWeek": 10,
-      "rank": 1
-    },
-    {
-      "id": "D_BUF_BB",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Buffalo Bills"
-      },
-      "position": "D",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "D_SEA_SS",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Seattle Seahawks"
-      },
-      "position": "D",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "D_PIT_PS",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Pittsburgh Steelers"
-      },
-      "position": "D",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "D_IND_IC",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Indianapolis Colts"
-      },
-      "position": "D",
-      "byeWeek": 6,
-      "rank": 1
-    },
-    {
-      "id": "D_TEN_TT",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Tennessee Titans"
-      },
-      "position": "D",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "D_KC_KCC",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Kansas City Chiefs"
-      },
-      "position": "D",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "D_CAR_CP",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Carolina Panthers"
-      },
-      "position": "D",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "D_GB_GBP",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Green Bay Packers"
-      },
-      "position": "D",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "D_ATL_AF",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Atlanta Falcons"
-      },
-      "position": "D",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "D_NYJ_NYJ",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "New York Jets"
-      },
-      "position": "D",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "D_WAS_WR",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Washington Redskins"
-      },
-      "position": "D",
-      "rank": 1
-    },
-    {
-      "id": "D_ARI_AC",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Arizona Cardinals"
-      },
-      "position": "D",
-      "byeWeek": 12,
-      "rank": 1
-    },
-    {
-      "id": "D_DET_DL",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Detroit Lions"
-      },
-      "position": "D",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "D_SF_SF4",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "San Francisco 49ers"
-      },
-      "position": "D",
-      "byeWeek": 4,
-      "rank": 1
-    },
-    {
-      "id": "D_NYG_NYG",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "New York Giants"
-      },
-      "position": "D",
-      "byeWeek": 11,
-      "rank": 1
-    },
-    {
-      "id": "D_MIA_MD",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Miami Dolphins"
-      },
-      "position": "D",
-      "byeWeek": 5,
-      "rank": 1
-    },
-    {
-      "id": "D_TB_TBB",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Tampa Bay Buccaneers"
-      },
-      "position": "D",
-      "byeWeek": 7,
-      "rank": 1
-    },
-    {
-      "id": "D_CIN_CB",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Cincinnati Bengals"
-      },
-      "position": "D",
-      "byeWeek": 9,
-      "rank": 1
-    },
-    {
-      "id": "D_OAK_OR",
-      "name": {
-        "firstName": "",
-        "lastName": "",
-        "middleName": "",
-        "fullName": "Oakland Raiders"
-      },
-      "position": "D",
-      "byeWeek": 6,
-      "rank": 1
-    }
-  ]
+  {
+    "id": "QB_KC_PM",
+    "team": "KC",
+    "name": {
+      "firstName": "Patrick",
+      "lastName": "Mahomes",
+      "middleName": "",
+      "fullName": "Patrick Mahomes"
+    },
+    "position": "QB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "QB_HOU_DW",
+    "team": "HOU",
+    "name": {
+      "firstName": "Deshaun",
+      "lastName": "Watson",
+      "middleName": "",
+      "fullName": "Deshaun Watson"
+    },
+    "position": "QB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "QB_GB_AR",
+    "team": "GB",
+    "name": {
+      "firstName": "Aaron",
+      "lastName": "Rodgers",
+      "middleName": "",
+      "fullName": "Aaron Rodgers"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_CLE_BM",
+    "team": "CLE",
+    "name": {
+      "firstName": "Baker",
+      "lastName": "Mayfield",
+      "middleName": "",
+      "fullName": "Baker Mayfield"
+    },
+    "position": "QB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "QB_ATL_MR",
+    "team": "ATL",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "Ryan",
+      "middleName": "",
+      "fullName": "Matt Ryan"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_IND_AL",
+    "team": "IND",
+    "name": {
+      "firstName": "Andrew",
+      "lastName": "Luck",
+      "middleName": "",
+      "fullName": "Andrew Luck"
+    },
+    "position": "QB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "QB_PHI_CW",
+    "team": "PHI",
+    "name": {
+      "firstName": "Carson",
+      "lastName": "Wentz",
+      "middleName": "",
+      "fullName": "Carson Wentz"
+    },
+    "position": "QB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "QB_CAR_CN",
+    "team": "CAR",
+    "name": {
+      "firstName": "Cam",
+      "lastName": "Newton",
+      "middleName": "",
+      "fullName": "Cam Newton"
+    },
+    "position": "QB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "QB_SEA_RW",
+    "team": "SEA",
+    "name": {
+      "firstName": "Russell",
+      "lastName": "Wilson",
+      "middleName": "",
+      "fullName": "Russell Wilson"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_LAR_JG",
+    "team": "LAR",
+    "name": {
+      "firstName": "Jared",
+      "lastName": "Goff",
+      "middleName": "",
+      "fullName": "Jared Goff"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_NO_DB",
+    "team": "NO",
+    "name": {
+      "firstName": "Drew",
+      "lastName": "Brees",
+      "middleName": "",
+      "fullName": "Drew Brees"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_ARI_KM",
+    "team": "ARI",
+    "name": {
+      "firstName": "Kyler",
+      "lastName": "Murray",
+      "middleName": "",
+      "fullName": "Kyler Murray"
+    },
+    "position": "QB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "QB_TB_JW",
+    "team": "TB",
+    "name": {
+      "firstName": "Jameis",
+      "lastName": "Winston",
+      "middleName": "",
+      "fullName": "Jameis Winston"
+    },
+    "position": "QB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "QB_PIT_BR",
+    "team": "PIT",
+    "name": {
+      "firstName": "Ben",
+      "lastName": "Roethlisberger",
+      "middleName": "",
+      "fullName": "Ben Roethlisberger"
+    },
+    "position": "QB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "QB_BAL_LJ",
+    "team": "BAL",
+    "name": {
+      "firstName": "Lamar",
+      "lastName": "Jackson",
+      "middleName": "",
+      "fullName": "Lamar Jackson"
+    },
+    "position": "QB",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "QB_DAL_DP",
+    "team": "DAL",
+    "name": {
+      "firstName": "Dak",
+      "lastName": "Prescott",
+      "middleName": "",
+      "fullName": "Dak Prescott"
+    },
+    "position": "QB",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "QB_LAC_PR",
+    "team": "LAC",
+    "name": {
+      "firstName": "Philip",
+      "lastName": "Rivers",
+      "middleName": "",
+      "fullName": "Philip Rivers"
+    },
+    "position": "QB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "QB_CHI_MT",
+    "team": "CHI",
+    "name": {
+      "firstName": "Mitch",
+      "lastName": "Trubisky",
+      "middleName": "",
+      "fullName": "Mitch Trubisky"
+    },
+    "position": "QB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "QB_MIN_KC",
+    "team": "MIN",
+    "name": {
+      "firstName": "Kirk",
+      "lastName": "Cousins",
+      "middleName": "",
+      "fullName": "Kirk Cousins"
+    },
+    "position": "QB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "QB_BUF_JA",
+    "team": "BUF",
+    "name": {
+      "firstName": "Josh",
+      "lastName": "Allen",
+      "middleName": "",
+      "fullName": "Josh Allen"
+    },
+    "position": "QB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "QB_NE_TB",
+    "team": "NE",
+    "name": {
+      "firstName": "Tom",
+      "lastName": "Brady",
+      "middleName": "",
+      "fullName": "Tom Brady"
+    },
+    "position": "QB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "QB_SF_JG",
+    "team": "SF",
+    "name": {
+      "firstName": "Jimmy",
+      "lastName": "Garoppolo",
+      "middleName": "",
+      "fullName": "Jimmy Garoppolo"
+    },
+    "position": "QB",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "QB_NYJ_SD",
+    "team": "NYJ",
+    "name": {
+      "firstName": "Sam",
+      "lastName": "Darnold",
+      "middleName": "",
+      "fullName": "Sam Darnold"
+    },
+    "position": "QB",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "QB_DET_MS",
+    "team": "DET",
+    "name": {
+      "firstName": "Matthew",
+      "lastName": "Stafford",
+      "middleName": "",
+      "fullName": "Matthew Stafford"
+    },
+    "position": "QB",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "QB_OAK_DC",
+    "team": "OAK",
+    "name": {
+      "firstName": "Derek",
+      "lastName": "Carr",
+      "middleName": "",
+      "fullName": "Derek Carr"
+    },
+    "position": "QB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "QB_CIN_AD",
+    "team": "CIN",
+    "name": {
+      "firstName": "Andy",
+      "lastName": "Dalton",
+      "middleName": "",
+      "fullName": "Andy Dalton"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_JAC_NF",
+    "team": "JAC",
+    "name": {
+      "firstName": "Nick",
+      "lastName": "Foles",
+      "middleName": "",
+      "fullName": "Nick Foles"
+    },
+    "position": "QB",
+    "rank": 9999
+  },
+  {
+    "id": "QB_TEN_MM",
+    "team": "TEN",
+    "name": {
+      "firstName": "Marcus",
+      "lastName": "Mariota",
+      "middleName": "",
+      "fullName": "Marcus Mariota"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_DEN_JF",
+    "team": "DEN",
+    "name": {
+      "firstName": "Joe",
+      "lastName": "Flacco",
+      "middleName": "",
+      "fullName": "Joe Flacco"
+    },
+    "position": "QB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "QB_NYG_EM",
+    "team": "NYG",
+    "name": {
+      "firstName": "Eli",
+      "lastName": "Manning",
+      "middleName": "",
+      "fullName": "Eli Manning"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_WAS_DH",
+    "team": "WAS",
+    "name": {
+      "firstName": "Dwayne",
+      "lastName": "Haskins",
+      "middleName": "",
+      "fullName": "Dwayne Haskins"
+    },
+    "position": "QB",
+    "rank": 9999
+  },
+  {
+    "id": "QB_MIA_RF",
+    "team": "MIA",
+    "name": {
+      "firstName": "Ryan",
+      "lastName": "Fitzpatrick",
+      "middleName": "",
+      "fullName": "Ryan Fitzpatrick"
+    },
+    "position": "QB",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "QB_MIA_JR",
+    "team": "MIA",
+    "name": {
+      "firstName": "Josh",
+      "lastName": "Rosen",
+      "middleName": "",
+      "fullName": "Josh Rosen"
+    },
+    "position": "QB",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "QB_WAS_CK",
+    "team": "WAS",
+    "name": {
+      "firstName": "Case",
+      "lastName": "Keenum",
+      "middleName": "",
+      "fullName": "Case Keenum"
+    },
+    "position": "QB",
+    "rank": 9999
+  },
+  {
+    "id": "QB_NYG_DJ",
+    "team": "NYG",
+    "name": {
+      "firstName": "Daniel",
+      "lastName": "Jones",
+      "middleName": "",
+      "fullName": "Daniel Jones"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_TEN_RT",
+    "team": "TEN",
+    "name": {
+      "firstName": "Ryan",
+      "lastName": "Tannehill",
+      "middleName": "",
+      "fullName": "Ryan Tannehill"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_DEN_DL",
+    "team": "DEN",
+    "name": {
+      "firstName": "Drew",
+      "lastName": "Lock",
+      "middleName": "",
+      "fullName": "Drew Lock"
+    },
+    "position": "QB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "QB_LAR_BB",
+    "team": "LAR",
+    "name": {
+      "firstName": "Blake",
+      "lastName": "Bortles",
+      "middleName": "",
+      "fullName": "Blake Bortles"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_NO_TH",
+    "team": "NO",
+    "name": {
+      "firstName": "Taysom",
+      "lastName": "Hill",
+      "middleName": "",
+      "fullName": "Taysom Hill"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_NO_TB",
+    "team": "NO",
+    "name": {
+      "firstName": "Teddy",
+      "lastName": "Bridgewater",
+      "middleName": "",
+      "fullName": "Teddy Bridgewater"
+    },
+    "position": "QB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "QB_CAR_WG",
+    "team": "CAR",
+    "name": {
+      "firstName": "Will",
+      "lastName": "Grier",
+      "middleName": "",
+      "fullName": "Will Grier"
+    },
+    "position": "QB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "QB_IND_JB",
+    "team": "IND",
+    "name": {
+      "firstName": "Jacoby",
+      "lastName": "Brissett",
+      "middleName": "",
+      "fullName": "Jacoby Brissett"
+    },
+    "position": "QB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "QB_SF_NM",
+    "team": "SF",
+    "name": {
+      "firstName": "Nick",
+      "lastName": "Mullens",
+      "middleName": "",
+      "fullName": "Nick Mullens"
+    },
+    "position": "QB",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "QB_LAC_TT",
+    "team": "LAC",
+    "name": {
+      "firstName": "Tyrod",
+      "lastName": "Taylor",
+      "middleName": "",
+      "fullName": "Tyrod Taylor"
+    },
+    "position": "QB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "QB_WAS_CM",
+    "team": "WAS",
+    "name": {
+      "firstName": "Colt",
+      "lastName": "McCoy",
+      "middleName": "",
+      "fullName": "Colt McCoy"
+    },
+    "position": "QB",
+    "rank": 9999
+  },
+  {
+    "id": "QB_BAL_RG",
+    "team": "BAL",
+    "name": {
+      "firstName": "Robert",
+      "lastName": "Griffin",
+      "middleName": "",
+      "fullName": "Robert Griffin"
+    },
+    "position": "QB",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "QB_HOU_AM",
+    "team": "HOU",
+    "name": {
+      "firstName": "AJ",
+      "lastName": "McCarron",
+      "middleName": "",
+      "fullName": "AJ McCarron"
+    },
+    "position": "QB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "QB_GB_DK",
+    "team": "GB",
+    "name": {
+      "firstName": "DeShone",
+      "lastName": "Kizer",
+      "middleName": "",
+      "fullName": "DeShone Kizer"
+    },
+    "position": "QB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "QB_BUF_MB",
+    "team": "BUF",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "Barkley",
+      "middleName": "",
+      "fullName": "Matt Barkley"
+    },
+    "position": "QB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "QB_ARI_BH",
+    "team": "ARI",
+    "name": {
+      "firstName": "Brett",
+      "lastName": "Hundley",
+      "middleName": "",
+      "fullName": "Brett Hundley"
+    },
+    "position": "QB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_NYG_SB",
+    "team": "NYG",
+    "name": {
+      "firstName": "Saquon",
+      "lastName": "Barkley",
+      "middleName": "",
+      "fullName": "Saquon Barkley"
+    },
+    "position": "RB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "RB_CAR_CM",
+    "team": "CAR",
+    "name": {
+      "firstName": "Christian",
+      "lastName": "McCaffrey",
+      "middleName": "",
+      "fullName": "Christian McCaffrey"
+    },
+    "position": "RB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "RB_NO_AK",
+    "team": "NO",
+    "name": {
+      "firstName": "Alvin",
+      "lastName": "Kamara",
+      "middleName": "",
+      "fullName": "Alvin Kamara"
+    },
+    "position": "RB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "RB_DAL_EE",
+    "team": "DAL",
+    "name": {
+      "firstName": "Ezekiel",
+      "lastName": "Elliott",
+      "middleName": "",
+      "fullName": "Ezekiel Elliott"
+    },
+    "position": "RB",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "RB_ARI_DJ",
+    "team": "ARI",
+    "name": {
+      "firstName": "David",
+      "lastName": "Johnson",
+      "middleName": "",
+      "fullName": "David Johnson"
+    },
+    "position": "RB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_PIT_JC",
+    "team": "PIT",
+    "name": {
+      "firstName": "James",
+      "lastName": "Conner",
+      "middleName": "",
+      "fullName": "James Conner"
+    },
+    "position": "RB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "RB_NYJ_LB",
+    "team": "NYJ",
+    "name": {
+      "firstName": "Le'Veon",
+      "lastName": "Bell",
+      "middleName": "",
+      "fullName": "Le'Veon Bell"
+    },
+    "position": "RB",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "RB_CLE_NC",
+    "team": "CLE",
+    "name": {
+      "firstName": "Nick",
+      "lastName": "Chubb",
+      "middleName": "",
+      "fullName": "Nick Chubb"
+    },
+    "position": "RB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "RB_CIN_JM",
+    "team": "CIN",
+    "name": {
+      "firstName": "Joe",
+      "lastName": "Mixon",
+      "middleName": "",
+      "fullName": "Joe Mixon"
+    },
+    "position": "RB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "RB_MIN_DC",
+    "team": "MIN",
+    "name": {
+      "firstName": "Dalvin",
+      "lastName": "Cook",
+      "middleName": "",
+      "fullName": "Dalvin Cook"
+    },
+    "position": "RB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_LAR_TG",
+    "team": "LAR",
+    "name": {
+      "firstName": "Todd",
+      "lastName": "Gurley",
+      "middleName": "",
+      "fullName": "Todd Gurley"
+    },
+    "position": "RB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "RB_DET_KJ",
+    "team": "DET",
+    "name": {
+      "firstName": "Kerryon",
+      "lastName": "Johnson",
+      "middleName": "",
+      "fullName": "Kerryon Johnson"
+    },
+    "position": "RB",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "RB_KC_DW",
+    "team": "KC",
+    "name": {
+      "firstName": "Damien",
+      "lastName": "Williams",
+      "middleName": "",
+      "fullName": "Damien Williams"
+    },
+    "position": "RB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_LAC_MG",
+    "team": "LAC",
+    "name": {
+      "firstName": "Melvin",
+      "lastName": "Gordon",
+      "middleName": "",
+      "fullName": "Melvin Gordon"
+    },
+    "position": "RB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_GB_AJ",
+    "team": "GB",
+    "name": {
+      "firstName": "Aaron",
+      "lastName": "Jones",
+      "middleName": "",
+      "fullName": "Aaron Jones"
+    },
+    "position": "RB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "RB_IND_MM",
+    "team": "IND",
+    "name": {
+      "firstName": "Marlon",
+      "lastName": "Mack",
+      "middleName": "",
+      "fullName": "Marlon Mack"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "RB_JAC_LF",
+    "team": "JAC",
+    "name": {
+      "firstName": "Leonard",
+      "lastName": "Fournette",
+      "middleName": "",
+      "fullName": "Leonard Fournette"
+    },
+    "position": "RB",
+    "rank": 9999
+  },
+  {
+    "id": "RB_ATL_DF",
+    "team": "ATL",
+    "name": {
+      "firstName": "Devonta",
+      "lastName": "Freeman",
+      "middleName": "",
+      "fullName": "Devonta Freeman"
+    },
+    "position": "RB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "RB_TEN_DH",
+    "team": "TEN",
+    "name": {
+      "firstName": "Derrick",
+      "lastName": "Henry",
+      "middleName": "",
+      "fullName": "Derrick Henry"
+    },
+    "position": "RB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "RB_OAK_JJ",
+    "team": "OAK",
+    "name": {
+      "firstName": "Josh",
+      "lastName": "Jacobs",
+      "middleName": "",
+      "fullName": "Josh Jacobs"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "RB_SEA_CC",
+    "team": "SEA",
+    "name": {
+      "firstName": "Chris",
+      "lastName": "Carson",
+      "middleName": "",
+      "fullName": "Chris Carson"
+    },
+    "position": "RB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "RB_BAL_MI",
+    "team": "BAL",
+    "name": {
+      "firstName": "Mark",
+      "lastName": "Ingram",
+      "middleName": "",
+      "fullName": "Mark Ingram"
+    },
+    "position": "RB",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "RB_CHI_DM",
+    "team": "CHI",
+    "name": {
+      "firstName": "David",
+      "lastName": "Montgomery",
+      "middleName": "",
+      "fullName": "David Montgomery"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "RB_NE_SM",
+    "team": "NE",
+    "name": {
+      "firstName": "Sony",
+      "lastName": "Michel",
+      "middleName": "",
+      "fullName": "Sony Michel"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_DEN_PL",
+    "team": "DEN",
+    "name": {
+      "firstName": "Phillip",
+      "lastName": "Lindsay",
+      "middleName": "",
+      "fullName": "Phillip Lindsay"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_NE_JW",
+    "team": "NE",
+    "name": {
+      "firstName": "James",
+      "lastName": "White",
+      "middleName": "",
+      "fullName": "James White"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_SF_TC",
+    "team": "SF",
+    "name": {
+      "firstName": "Tevin",
+      "lastName": "Coleman",
+      "middleName": "",
+      "fullName": "Tevin Coleman"
+    },
+    "position": "RB",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "RB_HOU_LM",
+    "team": "HOU",
+    "name": {
+      "firstName": "Lamar",
+      "lastName": "Miller",
+      "middleName": "",
+      "fullName": "Lamar Miller"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_CHI_TC",
+    "team": "CHI",
+    "name": {
+      "firstName": "Tarik",
+      "lastName": "Cohen",
+      "middleName": "",
+      "fullName": "Tarik Cohen"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "RB_MIA_KD",
+    "team": "MIA",
+    "name": {
+      "firstName": "Kenyan",
+      "lastName": "Drake",
+      "middleName": "",
+      "fullName": "Kenyan Drake"
+    },
+    "position": "RB",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "RB_NO_LM",
+    "team": "NO",
+    "name": {
+      "firstName": "Latavius",
+      "lastName": "Murray",
+      "middleName": "",
+      "fullName": "Latavius Murray"
+    },
+    "position": "RB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "RB_PHI_MS",
+    "team": "PHI",
+    "name": {
+      "firstName": "Miles",
+      "lastName": "Sanders",
+      "middleName": "",
+      "fullName": "Miles Sanders"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_SEA_RP",
+    "team": "SEA",
+    "name": {
+      "firstName": "Rashaad",
+      "lastName": "Penny",
+      "middleName": "",
+      "fullName": "Rashaad Penny"
+    },
+    "position": "RB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "RB_LAC_AE",
+    "team": "LAC",
+    "name": {
+      "firstName": "Austin",
+      "lastName": "Ekeler",
+      "middleName": "",
+      "fullName": "Austin Ekeler"
+    },
+    "position": "RB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_WAS_DG",
+    "team": "WAS",
+    "name": {
+      "firstName": "Derrius",
+      "lastName": "Guice",
+      "middleName": "",
+      "fullName": "Derrius Guice"
+    },
+    "position": "RB",
+    "rank": 9999
+  },
+  {
+    "id": "RB_DEN_RF",
+    "team": "DEN",
+    "name": {
+      "firstName": "Royce",
+      "lastName": "Freeman",
+      "middleName": "",
+      "fullName": "Royce Freeman"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_PHI_JH",
+    "team": "PHI",
+    "name": {
+      "firstName": "Jordan",
+      "lastName": "Howard",
+      "middleName": "",
+      "fullName": "Jordan Howard"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_LAR_DH",
+    "team": "LAR",
+    "name": {
+      "firstName": "Darrell",
+      "lastName": "Henderson",
+      "middleName": "",
+      "fullName": "Darrell Henderson"
+    },
+    "position": "RB",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "RB_BUF_LM",
+    "team": "BUF",
+    "name": {
+      "firstName": "LeSean",
+      "lastName": "McCoy",
+      "middleName": "",
+      "fullName": "LeSean McCoy"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "RB_SF_MB",
+    "team": "SF",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "Breida",
+      "middleName": "",
+      "fullName": "Matt Breida"
+    },
+    "position": "RB",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "RB_MIA_KB",
+    "team": "MIA",
+    "name": {
+      "firstName": "Kalen",
+      "lastName": "Ballage",
+      "middleName": "",
+      "fullName": "Kalen Ballage"
+    },
+    "position": "RB",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "RB_TB_RJ",
+    "team": "TB",
+    "name": {
+      "firstName": "Ronald",
+      "lastName": "II",
+      "middleName": "Jones",
+      "fullName": "Ronald Jones II"
+    },
+    "position": "RB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "RB_TEN_DL",
+    "team": "TEN",
+    "name": {
+      "firstName": "Dion",
+      "lastName": "Lewis",
+      "middleName": "",
+      "fullName": "Dion Lewis"
+    },
+    "position": "RB",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "RB_HOU_DJ",
+    "team": "HOU",
+    "name": {
+      "firstName": "Duke",
+      "lastName": "Johnson",
+      "middleName": "",
+      "fullName": "Duke Johnson"
+    },
+    "position": "RB",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "RB_WAS_AP",
+    "team": "WAS",
+    "name": {
+      "firstName": "Adrian",
+      "lastName": "Peterson",
+      "middleName": "",
+      "fullName": "Adrian Peterson"
+    },
+    "position": "RB",
+    "rank": 9999
+  },
+  {
+    "id": "RB_TB_PB",
+    "team": "TB",
+    "name": {
+      "firstName": "Peyton",
+      "lastName": "Barber",
+      "middleName": "",
+      "fullName": "Peyton Barber"
+    },
+    "position": "RB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "RB_IND_NH",
+    "team": "IND",
+    "name": {
+      "firstName": "Nyheim",
+      "lastName": "Hines",
+      "middleName": "",
+      "fullName": "Nyheim Hines"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "RB_KC_CH",
+    "team": "KC",
+    "name": {
+      "firstName": "Carlos",
+      "lastName": "Hyde",
+      "middleName": "",
+      "fullName": "Carlos Hyde"
+    },
+    "position": "RB",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "RB_PIT_JS",
+    "team": "PIT",
+    "name": {
+      "firstName": "Jaylen",
+      "lastName": "Samuels",
+      "middleName": "",
+      "fullName": "Jaylen Samuels"
+    },
+    "position": "RB",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "RB_BUF_DS",
+    "team": "BUF",
+    "name": {
+      "firstName": "Devin",
+      "lastName": "Singletary",
+      "middleName": "",
+      "fullName": "Devin Singletary"
+    },
+    "position": "RB",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "WR_HOU_DH",
+    "team": "HOU",
+    "name": {
+      "firstName": "DeAndre",
+      "lastName": "Hopkins",
+      "middleName": "",
+      "fullName": "DeAndre Hopkins"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_GB_DA",
+    "team": "GB",
+    "name": {
+      "firstName": "Davante",
+      "lastName": "Adams",
+      "middleName": "",
+      "fullName": "Davante Adams"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "WR_ATL_JJ",
+    "team": "ATL",
+    "name": {
+      "firstName": "Julio",
+      "lastName": "Jones",
+      "middleName": "",
+      "fullName": "Julio Jones"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CLE_OB",
+    "team": "CLE",
+    "name": {
+      "firstName": "Odell",
+      "lastName": "Jr.",
+      "middleName": "Beckham",
+      "fullName": "Odell Beckham Jr."
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_NO_MT",
+    "team": "NO",
+    "name": {
+      "firstName": "Michael",
+      "lastName": "Thomas",
+      "middleName": "",
+      "fullName": "Michael Thomas"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_PIT_JS",
+    "team": "PIT",
+    "name": {
+      "firstName": "JuJu",
+      "lastName": "Smith-Schuster",
+      "middleName": "",
+      "fullName": "JuJu Smith-Schuster"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_KC_TH",
+    "team": "KC",
+    "name": {
+      "firstName": "Tyreek",
+      "lastName": "Hill",
+      "middleName": "",
+      "fullName": "Tyreek Hill"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_TB_ME",
+    "team": "TB",
+    "name": {
+      "firstName": "Mike",
+      "lastName": "Evans",
+      "middleName": "",
+      "fullName": "Mike Evans"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_LAC_KA",
+    "team": "LAC",
+    "name": {
+      "firstName": "Keenan",
+      "lastName": "Allen",
+      "middleName": "",
+      "fullName": "Keenan Allen"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_OAK_AB",
+    "team": "OAK",
+    "name": {
+      "firstName": "Antonio",
+      "lastName": "Brown",
+      "middleName": "",
+      "fullName": "Antonio Brown"
+    },
+    "position": "WR",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "WR_IND_T",
+    "team": "IND",
+    "name": {
+      "firstName": "T.Y",
+      "middleName": "",
+      "fullName": "T.Y"
+    },
+    "position": "WR",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "WR_MIN_AT",
+    "team": "MIN",
+    "name": {
+      "firstName": "Adam",
+      "lastName": "Thielen",
+      "middleName": "",
+      "fullName": "Adam Thielen"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_DAL_AC",
+    "team": "DAL",
+    "name": {
+      "firstName": "Amari",
+      "lastName": "Cooper",
+      "middleName": "",
+      "fullName": "Amari Cooper"
+    },
+    "position": "WR",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "WR_MIN_SD",
+    "team": "MIN",
+    "name": {
+      "firstName": "Stefon",
+      "lastName": "Diggs",
+      "middleName": "",
+      "fullName": "Stefon Diggs"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_LAR_BC",
+    "team": "LAR",
+    "name": {
+      "firstName": "Brandin",
+      "lastName": "Cooks",
+      "middleName": "",
+      "fullName": "Brandin Cooks"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_NE_JE",
+    "team": "NE",
+    "name": {
+      "firstName": "Julian",
+      "lastName": "Edelman",
+      "middleName": "",
+      "fullName": "Julian Edelman"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_LAR_RW",
+    "team": "LAR",
+    "name": {
+      "firstName": "Robert",
+      "lastName": "Woods",
+      "middleName": "",
+      "fullName": "Robert Woods"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_TB_CG",
+    "team": "TB",
+    "name": {
+      "firstName": "Chris",
+      "lastName": "Godwin",
+      "middleName": "",
+      "fullName": "Chris Godwin"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_DET_KG",
+    "team": "DET",
+    "name": {
+      "firstName": "Kenny",
+      "lastName": "Golladay",
+      "middleName": "",
+      "fullName": "Kenny Golladay"
+    },
+    "position": "WR",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "WR_SEA_TL",
+    "team": "SEA",
+    "name": {
+      "firstName": "Tyler",
+      "lastName": "Lockett",
+      "middleName": "",
+      "fullName": "Tyler Lockett"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "WR_LAR_CK",
+    "team": "LAR",
+    "name": {
+      "firstName": "Cooper",
+      "lastName": "Kupp",
+      "middleName": "",
+      "fullName": "Cooper Kupp"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CIN_TB",
+    "team": "CIN",
+    "name": {
+      "firstName": "Tyler",
+      "lastName": "Boyd",
+      "middleName": "",
+      "fullName": "Tyler Boyd"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CAR_D",
+    "team": "CAR",
+    "name": {
+      "firstName": "D.J",
+      "middleName": "",
+      "fullName": "D.J"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_PHI_AJ",
+    "team": "PHI",
+    "name": {
+      "firstName": "Alshon",
+      "lastName": "Jeffery",
+      "middleName": "",
+      "fullName": "Alshon Jeffery"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_ATL_CR",
+    "team": "ATL",
+    "name": {
+      "firstName": "Calvin",
+      "lastName": "Ridley",
+      "middleName": "",
+      "fullName": "Calvin Ridley"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CHI_AR",
+    "team": "CHI",
+    "name": {
+      "firstName": "Allen",
+      "lastName": "Robinson",
+      "middleName": "",
+      "fullName": "Allen Robinson"
+    },
+    "position": "WR",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "WR_LAC_MW",
+    "team": "LAC",
+    "name": {
+      "firstName": "Mike",
+      "lastName": "Williams",
+      "middleName": "",
+      "fullName": "Mike Williams"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CIN_A",
+    "team": "CIN",
+    "name": {
+      "firstName": "A.J",
+      "middleName": "",
+      "fullName": "A.J"
+    },
+    "position": "WR",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "WR_NYJ_RA",
+    "team": "NYJ",
+    "name": {
+      "firstName": "Robby",
+      "lastName": "Anderson",
+      "middleName": "",
+      "fullName": "Robby Anderson"
+    },
+    "position": "WR",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CLE_JL",
+    "team": "CLE",
+    "name": {
+      "firstName": "Jarvis",
+      "lastName": "Landry",
+      "middleName": "",
+      "fullName": "Jarvis Landry"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_NE_JG",
+    "team": "NE",
+    "name": {
+      "firstName": "Josh",
+      "lastName": "Gordon",
+      "middleName": "",
+      "fullName": "Josh Gordon"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_KC_SW",
+    "team": "KC",
+    "name": {
+      "firstName": "Sammy",
+      "lastName": "Watkins",
+      "middleName": "",
+      "fullName": "Sammy Watkins"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_ARI_CK",
+    "team": "ARI",
+    "name": {
+      "firstName": "Christian",
+      "lastName": "Kirk",
+      "middleName": "",
+      "fullName": "Christian Kirk"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_TEN_CD",
+    "team": "TEN",
+    "name": {
+      "firstName": "Corey",
+      "lastName": "Davis",
+      "middleName": "",
+      "fullName": "Corey Davis"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "WR_HOU_WF",
+    "team": "HOU",
+    "name": {
+      "firstName": "Will",
+      "lastName": "Fuller",
+      "middleName": "",
+      "fullName": "Will Fuller"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CAR_CS",
+    "team": "CAR",
+    "name": {
+      "firstName": "Curtis",
+      "lastName": "Samuel",
+      "middleName": "",
+      "fullName": "Curtis Samuel"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_DET_MJ",
+    "team": "DET",
+    "name": {
+      "firstName": "Marvin",
+      "lastName": "Jones",
+      "middleName": "",
+      "fullName": "Marvin Jones"
+    },
+    "position": "WR",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "WR_SF_DP",
+    "team": "SF",
+    "name": {
+      "firstName": "Dante",
+      "lastName": "Pettis",
+      "middleName": "",
+      "fullName": "Dante Pettis"
+    },
+    "position": "WR",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "WR_JAC_DW",
+    "team": "JAC",
+    "name": {
+      "firstName": "Dede",
+      "lastName": "Westbrook",
+      "middleName": "",
+      "fullName": "Dede Westbrook"
+    },
+    "position": "WR",
+    "rank": 9999
+  },
+  {
+    "id": "WR_NYG_SS",
+    "team": "NYG",
+    "name": {
+      "firstName": "Sterling",
+      "lastName": "Shepard",
+      "middleName": "",
+      "fullName": "Sterling Shepard"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "WR_ARI_LF",
+    "team": "ARI",
+    "name": {
+      "firstName": "Larry",
+      "lastName": "Fitzgerald",
+      "middleName": "",
+      "fullName": "Larry Fitzgerald"
+    },
+    "position": "WR",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "WR_DEN_CS",
+    "team": "DEN",
+    "name": {
+      "firstName": "Courtland",
+      "lastName": "Sutton",
+      "middleName": "",
+      "fullName": "Courtland Sutton"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_GB_GA",
+    "team": "GB",
+    "name": {
+      "firstName": "Geronimo",
+      "lastName": "Allison",
+      "middleName": "",
+      "fullName": "Geronimo Allison"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "WR_CHI_AM",
+    "team": "CHI",
+    "name": {
+      "firstName": "Anthony",
+      "lastName": "Miller",
+      "middleName": "",
+      "fullName": "Anthony Miller"
+    },
+    "position": "WR",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "WR_HOU_KC",
+    "team": "HOU",
+    "name": {
+      "firstName": "Keke",
+      "lastName": "Coutee",
+      "middleName": "",
+      "fullName": "Keke Coutee"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_GB_MV",
+    "team": "GB",
+    "name": {
+      "firstName": "Marquez",
+      "lastName": "Valdes-Scantling",
+      "middleName": "",
+      "fullName": "Marquez Valdes-Scantling"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "WR_PHI_DJ",
+    "team": "PHI",
+    "name": {
+      "firstName": "DeSean",
+      "lastName": "Jackson",
+      "middleName": "",
+      "fullName": "DeSean Jackson"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_DEN_ES",
+    "team": "DEN",
+    "name": {
+      "firstName": "Emmanuel",
+      "lastName": "Sanders",
+      "middleName": "",
+      "fullName": "Emmanuel Sanders"
+    },
+    "position": "WR",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "WR_PIT_DM",
+    "team": "PIT",
+    "name": {
+      "firstName": "Donte",
+      "lastName": "Moncrief",
+      "middleName": "",
+      "fullName": "Donte Moncrief"
+    },
+    "position": "WR",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "WR_NYG_GT",
+    "team": "NYG",
+    "name": {
+      "firstName": "Golden",
+      "lastName": "Tate",
+      "middleName": "",
+      "fullName": "Golden Tate"
+    },
+    "position": "WR",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_KC_TK",
+    "team": "KC",
+    "name": {
+      "firstName": "Travis",
+      "lastName": "Kelce",
+      "middleName": "",
+      "fullName": "Travis Kelce"
+    },
+    "position": "TE",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "TE_SF_GK",
+    "team": "SF",
+    "name": {
+      "firstName": "George",
+      "lastName": "Kittle",
+      "middleName": "",
+      "fullName": "George Kittle"
+    },
+    "position": "TE",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "TE_PHI_ZE",
+    "team": "PHI",
+    "name": {
+      "firstName": "Zach",
+      "lastName": "Ertz",
+      "middleName": "",
+      "fullName": "Zach Ertz"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_TB_O",
+    "team": "TB",
+    "name": {
+      "firstName": "O.J",
+      "middleName": "",
+      "fullName": "O.J"
+    },
+    "position": "TE",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "TE_NYG_EE",
+    "team": "NYG",
+    "name": {
+      "firstName": "Evan",
+      "lastName": "Engram",
+      "middleName": "",
+      "fullName": "Evan Engram"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_LAC_HH",
+    "team": "LAC",
+    "name": {
+      "firstName": "Hunter",
+      "lastName": "Henry",
+      "middleName": "",
+      "fullName": "Hunter Henry"
+    },
+    "position": "TE",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "TE_NO_JC",
+    "team": "NO",
+    "name": {
+      "firstName": "Jared",
+      "lastName": "Cook",
+      "middleName": "",
+      "fullName": "Jared Cook"
+    },
+    "position": "TE",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "TE_PIT_VM",
+    "team": "PIT",
+    "name": {
+      "firstName": "Vance",
+      "lastName": "McDonald",
+      "middleName": "",
+      "fullName": "Vance McDonald"
+    },
+    "position": "TE",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "TE_CLE_DN",
+    "team": "CLE",
+    "name": {
+      "firstName": "David",
+      "lastName": "Njoku",
+      "middleName": "",
+      "fullName": "David Njoku"
+    },
+    "position": "TE",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "TE_IND_EE",
+    "team": "IND",
+    "name": {
+      "firstName": "Eric",
+      "lastName": "Ebron",
+      "middleName": "",
+      "fullName": "Eric Ebron"
+    },
+    "position": "TE",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "TE_ATL_AH",
+    "team": "ATL",
+    "name": {
+      "firstName": "Austin",
+      "lastName": "Hooper",
+      "middleName": "",
+      "fullName": "Austin Hooper"
+    },
+    "position": "TE",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "TE_TEN_DW",
+    "team": "TEN",
+    "name": {
+      "firstName": "Delanie",
+      "lastName": "Walker",
+      "middleName": "",
+      "fullName": "Delanie Walker"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_CHI_TB",
+    "team": "CHI",
+    "name": {
+      "firstName": "Trey",
+      "lastName": "Burton",
+      "middleName": "",
+      "fullName": "Trey Burton"
+    },
+    "position": "TE",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "TE_WAS_JR",
+    "team": "WAS",
+    "name": {
+      "firstName": "Jordan",
+      "lastName": "Reed",
+      "middleName": "",
+      "fullName": "Jordan Reed"
+    },
+    "position": "TE",
+    "rank": 9999
+  },
+  {
+    "id": "TE_BAL_MA",
+    "team": "BAL",
+    "name": {
+      "firstName": "Mark",
+      "lastName": "Andrews",
+      "middleName": "",
+      "fullName": "Mark Andrews"
+    },
+    "position": "TE",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "TE_MIN_KR",
+    "team": "MIN",
+    "name": {
+      "firstName": "Kyle",
+      "lastName": "Rudolph",
+      "middleName": "",
+      "fullName": "Kyle Rudolph"
+    },
+    "position": "TE",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "TE_IND_JD",
+    "team": "IND",
+    "name": {
+      "firstName": "Jack",
+      "lastName": "Doyle",
+      "middleName": "",
+      "fullName": "Jack Doyle"
+    },
+    "position": "TE",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "TE_GB_JG",
+    "team": "GB",
+    "name": {
+      "firstName": "Jimmy",
+      "lastName": "Graham",
+      "middleName": "",
+      "fullName": "Jimmy Graham"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_CAR_GO",
+    "team": "CAR",
+    "name": {
+      "firstName": "Greg",
+      "lastName": "Olsen",
+      "middleName": "",
+      "fullName": "Greg Olsen"
+    },
+    "position": "TE",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "TE_DEN_NF",
+    "team": "DEN",
+    "name": {
+      "firstName": "Noah",
+      "lastName": "Fant",
+      "middleName": "",
+      "fullName": "Noah Fant"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_DET_T",
+    "team": "DET",
+    "name": {
+      "firstName": "T.J",
+      "middleName": "",
+      "fullName": "T.J"
+    },
+    "position": "TE",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "TE_PHI_DG",
+    "team": "PHI",
+    "name": {
+      "firstName": "Dallas",
+      "lastName": "Goedert",
+      "middleName": "",
+      "fullName": "Dallas Goedert"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_NYJ_CH",
+    "team": "NYJ",
+    "name": {
+      "firstName": "Chris",
+      "lastName": "IV",
+      "middleName": "Herndon",
+      "fullName": "Chris Herndon IV"
+    },
+    "position": "TE",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "TE_MIA_MG",
+    "team": "MIA",
+    "name": {
+      "firstName": "Mike",
+      "lastName": "Gesicki",
+      "middleName": "",
+      "fullName": "Mike Gesicki"
+    },
+    "position": "TE",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "TE_CIN_TE",
+    "team": "CIN",
+    "name": {
+      "firstName": "Tyler",
+      "lastName": "Eifert",
+      "middleName": "",
+      "fullName": "Tyler Eifert"
+    },
+    "position": "TE",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "TE_LAR_GE",
+    "team": "LAR",
+    "name": {
+      "firstName": "Gerald",
+      "lastName": "Everett",
+      "middleName": "",
+      "fullName": "Gerald Everett"
+    },
+    "position": "TE",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "TE_TB_CB",
+    "team": "TB",
+    "name": {
+      "firstName": "Cameron",
+      "lastName": "Brate",
+      "middleName": "",
+      "fullName": "Cameron Brate"
+    },
+    "position": "TE",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "TE_CAR_IT",
+    "team": "CAR",
+    "name": {
+      "firstName": "Ian",
+      "lastName": "Thomas",
+      "middleName": "",
+      "fullName": "Ian Thomas"
+    },
+    "position": "TE",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "TE_ARI_RS",
+    "team": "ARI",
+    "name": {
+      "firstName": "Ricky",
+      "lastName": "Seals-Jones",
+      "middleName": "",
+      "fullName": "Ricky Seals-Jones"
+    },
+    "position": "TE",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "TE_DAL_JW",
+    "team": "DAL",
+    "name": {
+      "firstName": "Jason",
+      "lastName": "Witten",
+      "middleName": "",
+      "fullName": "Jason Witten"
+    },
+    "position": "TE",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "TE_BAL_HH",
+    "team": "BAL",
+    "name": {
+      "firstName": "Hayden",
+      "lastName": "Hurst",
+      "middleName": "",
+      "fullName": "Hayden Hurst"
+    },
+    "position": "TE",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "TE_OAK_DW",
+    "team": "OAK",
+    "name": {
+      "firstName": "Darren",
+      "lastName": "Waller",
+      "middleName": "",
+      "fullName": "Darren Waller"
+    },
+    "position": "TE",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "TE_SEA_NV",
+    "team": "SEA",
+    "name": {
+      "firstName": "Nick",
+      "lastName": "Vannett",
+      "middleName": "",
+      "fullName": "Nick Vannett"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_ARI_CC",
+    "team": "ARI",
+    "name": {
+      "firstName": "Charles",
+      "lastName": "Clay",
+      "middleName": "",
+      "fullName": "Charles Clay"
+    },
+    "position": "TE",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "TE_SEA_WD",
+    "team": "SEA",
+    "name": {
+      "firstName": "Will",
+      "lastName": "Dissly",
+      "middleName": "",
+      "fullName": "Will Dissly"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_MIN_IS",
+    "team": "MIN",
+    "name": {
+      "firstName": "Irv",
+      "lastName": "Jr.",
+      "middleName": "Smith",
+      "fullName": "Irv Smith Jr."
+    },
+    "position": "TE",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "TE_TEN_JS",
+    "team": "TEN",
+    "name": {
+      "firstName": "Jonnu",
+      "lastName": "Smith",
+      "middleName": "",
+      "fullName": "Jonnu Smith"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_HOU_JT",
+    "team": "HOU",
+    "name": {
+      "firstName": "Jordan",
+      "lastName": "Thomas",
+      "middleName": "",
+      "fullName": "Jordan Thomas"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_DEN_JB",
+    "team": "DEN",
+    "name": {
+      "firstName": "Jake",
+      "lastName": "Butt",
+      "middleName": "",
+      "fullName": "Jake Butt"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_NE_ML",
+    "team": "NE",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "LaCosse",
+      "middleName": "",
+      "fullName": "Matt LaCosse"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_NE_BW",
+    "team": "NE",
+    "name": {
+      "firstName": "Benjamin",
+      "lastName": "Watson",
+      "middleName": "",
+      "fullName": "Benjamin Watson"
+    },
+    "position": "TE",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "TE_WAS_VD",
+    "team": "WAS",
+    "name": {
+      "firstName": "Vernon",
+      "lastName": "Davis",
+      "middleName": "",
+      "fullName": "Vernon Davis"
+    },
+    "position": "TE",
+    "rank": 9999
+  },
+  {
+    "id": "TE_JAC_GS",
+    "team": "JAC",
+    "name": {
+      "firstName": "Geoff",
+      "lastName": "Swaim",
+      "middleName": "",
+      "fullName": "Geoff Swaim"
+    },
+    "position": "TE",
+    "rank": 9999
+  },
+  {
+    "id": "TE_DAL_BJ",
+    "team": "DAL",
+    "name": {
+      "firstName": "Blake",
+      "lastName": "Jarwin",
+      "middleName": "",
+      "fullName": "Blake Jarwin"
+    },
+    "position": "TE",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "TE_CIN_C",
+    "team": "CIN",
+    "name": {
+      "firstName": "C.J",
+      "middleName": "",
+      "fullName": "C.J"
+    },
+    "position": "TE",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "TE_GB_JS",
+    "team": "GB",
+    "name": {
+      "firstName": "Jace",
+      "lastName": "Sternberger",
+      "middleName": "",
+      "fullName": "Jace Sternberger"
+    },
+    "position": "TE",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "TE_JAC_JO",
+    "team": "JAC",
+    "name": {
+      "firstName": "Josh",
+      "lastName": "Oliver",
+      "middleName": "",
+      "fullName": "Josh Oliver"
+    },
+    "position": "TE",
+    "rank": 9999
+  },
+  {
+    "id": "TE_DET_JJ",
+    "team": "DET",
+    "name": {
+      "firstName": "Jesse",
+      "lastName": "James",
+      "middleName": "",
+      "fullName": "Jesse James"
+    },
+    "position": "TE",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "TE_OAK_LW",
+    "team": "OAK",
+    "name": {
+      "firstName": "Luke",
+      "lastName": "Willson",
+      "middleName": "",
+      "fullName": "Luke Willson"
+    },
+    "position": "TE",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "TE_LAR_TH",
+    "team": "LAR",
+    "name": {
+      "firstName": "Tyler",
+      "lastName": "Higbee",
+      "middleName": "",
+      "fullName": "Tyler Higbee"
+    },
+    "position": "TE",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "K_LAR_GZ",
+    "team": "LAR",
+    "name": {
+      "firstName": "Greg",
+      "lastName": "Zuerlein",
+      "middleName": "",
+      "fullName": "Greg Zuerlein"
+    },
+    "position": "K",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "K_BAL_JT",
+    "team": "BAL",
+    "name": {
+      "firstName": "Justin",
+      "lastName": "Tucker",
+      "middleName": "",
+      "fullName": "Justin Tucker"
+    },
+    "position": "K",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "K_KC_HB",
+    "team": "KC",
+    "name": {
+      "firstName": "Harrison",
+      "lastName": "Butker",
+      "middleName": "",
+      "fullName": "Harrison Butker"
+    },
+    "position": "K",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "K_NE_SG",
+    "team": "NE",
+    "name": {
+      "firstName": "Stephen",
+      "lastName": "Gostkowski",
+      "middleName": "",
+      "fullName": "Stephen Gostkowski"
+    },
+    "position": "K",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "K_NO_WL",
+    "team": "NO",
+    "name": {
+      "firstName": "Wil",
+      "lastName": "Lutz",
+      "middleName": "",
+      "fullName": "Wil Lutz"
+    },
+    "position": "K",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "K_HOU_KF",
+    "team": "HOU",
+    "name": {
+      "firstName": "Ka'imi",
+      "lastName": "Fairbairn",
+      "middleName": "",
+      "fullName": "Ka'imi Fairbairn"
+    },
+    "position": "K",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "K_GB_MC",
+    "team": "GB",
+    "name": {
+      "firstName": "Mason",
+      "lastName": "Crosby",
+      "middleName": "",
+      "fullName": "Mason Crosby"
+    },
+    "position": "K",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "K_PHI_JE",
+    "team": "PHI",
+    "name": {
+      "firstName": "Jake",
+      "lastName": "Elliott",
+      "middleName": "",
+      "fullName": "Jake Elliott"
+    },
+    "position": "K",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "K_LAC_MB",
+    "team": "LAC",
+    "name": {
+      "firstName": "Michael",
+      "lastName": "Badgley",
+      "middleName": "",
+      "fullName": "Michael Badgley"
+    },
+    "position": "K",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "K_DAL_BM",
+    "team": "DAL",
+    "name": {
+      "firstName": "Brett",
+      "lastName": "Maher",
+      "middleName": "",
+      "fullName": "Brett Maher"
+    },
+    "position": "K",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "K_SF_RG",
+    "team": "SF",
+    "name": {
+      "firstName": "Robbie",
+      "lastName": "Gould",
+      "middleName": "",
+      "fullName": "Robbie Gould"
+    },
+    "position": "K",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "K_IND_AV",
+    "team": "IND",
+    "name": {
+      "firstName": "Adam",
+      "lastName": "Vinatieri",
+      "middleName": "",
+      "fullName": "Adam Vinatieri"
+    },
+    "position": "K",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "K_DET_MP",
+    "team": "DET",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "Prater",
+      "middleName": "",
+      "fullName": "Matt Prater"
+    },
+    "position": "K",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "K_SEA_JM",
+    "team": "SEA",
+    "name": {
+      "firstName": "Jason",
+      "lastName": "Myers",
+      "middleName": "",
+      "fullName": "Jason Myers"
+    },
+    "position": "K",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "K_CAR_GG",
+    "team": "CAR",
+    "name": {
+      "firstName": "Graham",
+      "lastName": "Gano",
+      "middleName": "",
+      "fullName": "Graham Gano"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "K_PIT_CB",
+    "team": "PIT",
+    "name": {
+      "firstName": "Chris",
+      "lastName": "Boswell",
+      "middleName": "",
+      "fullName": "Chris Boswell"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "K_NYG_AR",
+    "team": "NYG",
+    "name": {
+      "firstName": "Aldrick",
+      "lastName": "Rosas",
+      "middleName": "",
+      "fullName": "Aldrick Rosas"
+    },
+    "position": "K",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "K_ATL_GT",
+    "team": "ATL",
+    "name": {
+      "firstName": "Giorgio",
+      "lastName": "Tavecchio",
+      "middleName": "",
+      "fullName": "Giorgio Tavecchio"
+    },
+    "position": "K",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "K_TEN_RS",
+    "team": "TEN",
+    "name": {
+      "firstName": "Ryan",
+      "lastName": "Succop",
+      "middleName": "",
+      "fullName": "Ryan Succop"
+    },
+    "position": "K",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "K_DEN_BM",
+    "team": "DEN",
+    "name": {
+      "firstName": "Brandon",
+      "lastName": "McManus",
+      "middleName": "",
+      "fullName": "Brandon McManus"
+    },
+    "position": "K",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "K_MIN_DB",
+    "team": "MIN",
+    "name": {
+      "firstName": "Dan",
+      "lastName": "Bailey",
+      "middleName": "",
+      "fullName": "Dan Bailey"
+    },
+    "position": "K",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "K_JAC_JL",
+    "team": "JAC",
+    "name": {
+      "firstName": "Josh",
+      "lastName": "Lambo",
+      "middleName": "",
+      "fullName": "Josh Lambo"
+    },
+    "position": "K",
+    "rank": 9999
+  },
+  {
+    "id": "K_CLE_GJ",
+    "team": "CLE",
+    "name": {
+      "firstName": "Greg",
+      "lastName": "Joseph",
+      "middleName": "",
+      "fullName": "Greg Joseph"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "K_BUF_SH",
+    "team": "BUF",
+    "name": {
+      "firstName": "Steven",
+      "lastName": "Hauschka",
+      "middleName": "",
+      "fullName": "Steven Hauschka"
+    },
+    "position": "K",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "K_OAK_DC",
+    "team": "OAK",
+    "name": {
+      "firstName": "Daniel",
+      "lastName": "Carlson",
+      "middleName": "",
+      "fullName": "Daniel Carlson"
+    },
+    "position": "K",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "K_TB_CS",
+    "team": "TB",
+    "name": {
+      "firstName": "Cairo",
+      "lastName": "Santos",
+      "middleName": "",
+      "fullName": "Cairo Santos"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "K_WAS_DH",
+    "team": "WAS",
+    "name": {
+      "firstName": "Dustin",
+      "lastName": "Hopkins",
+      "middleName": "",
+      "fullName": "Dustin Hopkins"
+    },
+    "position": "K",
+    "rank": 9999
+  },
+  {
+    "id": "K_ARI_ZG",
+    "team": "ARI",
+    "name": {
+      "firstName": "Zane",
+      "lastName": "Gonzalez",
+      "middleName": "",
+      "fullName": "Zane Gonzalez"
+    },
+    "position": "K",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "K_CIN_RB",
+    "team": "CIN",
+    "name": {
+      "firstName": "Randy",
+      "lastName": "Bullock",
+      "middleName": "",
+      "fullName": "Randy Bullock"
+    },
+    "position": "K",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "K_CHI_EP",
+    "team": "CHI",
+    "name": {
+      "firstName": "Eddy",
+      "lastName": "Pineiro",
+      "middleName": "",
+      "fullName": "Eddy Pineiro"
+    },
+    "position": "K",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "K_MIA_JS",
+    "team": "MIA",
+    "name": {
+      "firstName": "Jason",
+      "lastName": "Sanders",
+      "middleName": "",
+      "fullName": "Jason Sanders"
+    },
+    "position": "K",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "K_TB_MG",
+    "team": "TB",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "Gay",
+      "middleName": "",
+      "fullName": "Matt Gay"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "K__MB",
+    "team": "",
+    "name": {
+      "firstName": "Matt",
+      "lastName": "Bryant",
+      "middleName": "",
+      "fullName": "Matt Bryant"
+    },
+    "position": "K",
+    "rank": 9999
+  },
+  {
+    "id": "K__CC",
+    "team": "",
+    "name": {
+      "firstName": "Chandler",
+      "lastName": "Catanzaro",
+      "middleName": "",
+      "fullName": "Chandler Catanzaro"
+    },
+    "position": "K",
+    "rank": 9999
+  },
+  {
+    "id": "K_CLE_AS",
+    "team": "CLE",
+    "name": {
+      "firstName": "Austin",
+      "lastName": "Seibert",
+      "middleName": "",
+      "fullName": "Austin Seibert"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "K_NYJ_TB",
+    "team": "NYJ",
+    "name": {
+      "firstName": "Taylor",
+      "lastName": "Bertolet",
+      "middleName": "",
+      "fullName": "Taylor Bertolet"
+    },
+    "position": "K",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "K__CP",
+    "team": "",
+    "name": {
+      "firstName": "Cody",
+      "lastName": "Parkey",
+      "middleName": "",
+      "fullName": "Cody Parkey"
+    },
+    "position": "K",
+    "rank": 9999
+  },
+  {
+    "id": "K_CHI_EF",
+    "team": "CHI",
+    "name": {
+      "firstName": "Elliott",
+      "lastName": "Fry",
+      "middleName": "",
+      "fullName": "Elliott Fry"
+    },
+    "position": "K",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "K_SF_AJ",
+    "team": "SF",
+    "name": {
+      "firstName": "Andrew",
+      "lastName": "Jacas",
+      "middleName": "",
+      "fullName": "Andrew Jacas"
+    },
+    "position": "K",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "K_CAR_AW",
+    "team": "CAR",
+    "name": {
+      "firstName": "Andrew",
+      "lastName": "Wellock",
+      "middleName": "",
+      "fullName": "Andrew Wellock"
+    },
+    "position": "K",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "D_CHI_CB",
+    "team": "CHI",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Chicago Bears"
+    },
+    "position": "D",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "D_JAC_JJ",
+    "team": "JAC",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Jacksonville Jaguars"
+    },
+    "position": "D",
+    "rank": 9999
+  },
+  {
+    "id": "D_LAR_LA",
+    "team": "LAR",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Los Angeles Rams"
+    },
+    "position": "D",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "D_BAL_BR",
+    "team": "BAL",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Baltimore Ravens"
+    },
+    "position": "D",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "D_MIN_MV",
+    "team": "MIN",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Minnesota Vikings"
+    },
+    "position": "D",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "D_LAC_LA",
+    "team": "LAC",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Los Angeles Chargers"
+    },
+    "position": "D",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "D_HOU_HT",
+    "team": "HOU",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Houston Texans"
+    },
+    "position": "D",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "D_CLE_CB",
+    "team": "CLE",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Cleveland Browns"
+    },
+    "position": "D",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "D_NO_NO",
+    "team": "NO",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "New Orleans Saints"
+    },
+    "position": "D",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "D_DEN_DB",
+    "team": "DEN",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Denver Broncos"
+    },
+    "position": "D",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "D_NE_NE",
+    "team": "NE",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "New England Patriots"
+    },
+    "position": "D",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "D_DAL_DC",
+    "team": "DAL",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Dallas Cowboys"
+    },
+    "position": "D",
+    "byeWeek": 8,
+    "rank": 9999
+  },
+  {
+    "id": "D_BUF_BB",
+    "team": "BUF",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Buffalo Bills"
+    },
+    "position": "D",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "D_PHI_PE",
+    "team": "PHI",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Philadelphia Eagles"
+    },
+    "position": "D",
+    "byeWeek": 10,
+    "rank": 9999
+  },
+  {
+    "id": "D_SEA_SS",
+    "team": "SEA",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Seattle Seahawks"
+    },
+    "position": "D",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "D_PIT_PS",
+    "team": "PIT",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Pittsburgh Steelers"
+    },
+    "position": "D",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "D_IND_IC",
+    "team": "IND",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Indianapolis Colts"
+    },
+    "position": "D",
+    "byeWeek": 6,
+    "rank": 9999
+  },
+  {
+    "id": "D_TEN_TT",
+    "team": "TEN",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Tennessee Titans"
+    },
+    "position": "D",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "D_KC_KC",
+    "team": "KC",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Kansas City Chiefs"
+    },
+    "position": "D",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "D_CAR_CP",
+    "team": "CAR",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Carolina Panthers"
+    },
+    "position": "D",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "D_ATL_AF",
+    "team": "ATL",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Atlanta Falcons"
+    },
+    "position": "D",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "D_GB_GB",
+    "team": "GB",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Green Bay Packers"
+    },
+    "position": "D",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "D_NYJ_NY",
+    "team": "NYJ",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "New York Jets"
+    },
+    "position": "D",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "D_WAS_WR",
+    "team": "WAS",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Washington Redskins"
+    },
+    "position": "D",
+    "rank": 9999
+  },
+  {
+    "id": "D_ARI_AC",
+    "team": "ARI",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Arizona Cardinals"
+    },
+    "position": "D",
+    "byeWeek": 12,
+    "rank": 9999
+  },
+  {
+    "id": "D_DET_DL",
+    "team": "DET",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Detroit Lions"
+    },
+    "position": "D",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "D_SF_SF",
+    "team": "SF",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "San Francisco 49ers"
+    },
+    "position": "D",
+    "byeWeek": 4,
+    "rank": 9999
+  },
+  {
+    "id": "D_NYG_NY",
+    "team": "NYG",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "New York Giants"
+    },
+    "position": "D",
+    "byeWeek": 11,
+    "rank": 9999
+  },
+  {
+    "id": "D_MIA_MD",
+    "team": "MIA",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Miami Dolphins"
+    },
+    "position": "D",
+    "byeWeek": 5,
+    "rank": 9999
+  },
+  {
+    "id": "D_TB_TB",
+    "team": "TB",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Tampa Bay Buccaneers"
+    },
+    "position": "D",
+    "byeWeek": 7,
+    "rank": 9999
+  },
+  {
+    "id": "D_CIN_CB",
+    "team": "CIN",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Cincinnati Bengals"
+    },
+    "position": "D",
+    "byeWeek": 9,
+    "rank": 9999
+  },
+  {
+    "id": "D_OAK_OR",
+    "team": "OAK",
+    "name": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "fullName": "Oakland Raiders"
+    },
+    "position": "D",
+    "byeWeek": 6,
+    "rank": 9999
+  }
+]
